@@ -1,0 +1,65 @@
+﻿
+    
+<vm:RaceModel
+    
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+xmlns:vm="clr-namespace:SC2Unit.ViewModels;assembly=SC2Unit">
+
+    <vm:RaceModel.Terran>
+        <vm:Race Title="Terran">
+            <vm:Race.Unites>
+                <vm:Unit Title="VCS" ImgPath="/Assets/Unit/Terran/VCS.png">
+                </vm:Unit>
+                <vm:Unit Title="Marine" ImgPath="/Assets/Unit/Terran/Marine.png">
+                </vm:Unit>
+                <vm:Unit Title="Marauder" ImgPath="/Assets/Unit/Terran/Marauder.png">
+                </vm:Unit>
+                <vm:Unit Title="Reaper" ImgPath="/Assets/Unit/Terran/Reaper.png">
+                </vm:Unit>
+                <vm:Unit Title="Ghost" ImgPath="/Assets/Unit/Terran/Ghost.png">
+                </vm:Unit>
+            </vm:Race.Unites>
+        </vm:Race>
+    </vm:RaceModel.Terran>
+
+    <vm:RaceModel.Protoss>
+        <vm:Race Title="Protoss">
+            <vm:Race.Unites>
+                <vm:Unit Title="Probe" ImgPath="/Assets/Unit/Protoss/Probe.png">
+                </vm:Unit>
+                <vm:Unit Title="Zealot" ImgPath="/Assets/Unit/Protoss/Zealot.png">
+                </vm:Unit>
+                <vm:Unit Title="Stalker" ImgPath="/Assets/Unit/Protoss/Stalker.png">
+                </vm:Unit>
+                <vm:Unit Title="Haut-Templier" ImgPath="/Assets/Unit/Protoss/HighTemplar.png">
+                </vm:Unit>
+                <vm:Unit Title="Dark Templar" ImgPath="/Assets/Unit/Protoss/DarKTemplar.png">
+                </vm:Unit>
+            </vm:Race.Unites>
+        </vm:Race>
+    </vm:RaceModel.Protoss>
+
+    <vm:RaceModel.Zerg>
+        <vm:Race Title="Zerg">
+            <vm:Race.Unites>
+                <vm:Unit Title="Drone" ImgPath="/Assets/Unit/Zerg/Drone.png">
+                    
+                </vm:Unit>
+                <vm:Unit Title="Zergling" ImgPath="/Assets/Unit/Zerg/Zergling.png">
+                  
+                </vm:Unit>
+                <vm:Unit Title="Baneling" ImgPath="/Assets/Unit/Zerg/Baneling.png">
+              
+                </vm:Unit>
+                <vm:Unit Title="Rouch" ImgPath="/Assets/Unit/Zerg/Rouch.png">
+                
+                </vm:Unit>
+                <vm:Unit Title="Hydralisk" ImgPath="/Assets/Unit/Zerg/Hydralisk.png">
+                
+                </vm:Unit>
+            </vm:Race.Unites>
+        </vm:Race>
+    </vm:RaceModel.Zerg>
+
+</vm:RaceModel>

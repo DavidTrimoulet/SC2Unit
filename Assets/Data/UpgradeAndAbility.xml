@@ -1,0 +1,180 @@
+﻿<Race>
+  <Terran>
+  <Upgrades>
+    <Upgrade Title="Infantry Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryarmorlevel1.jpg" />
+    <Upgrade Title="Infantry Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryarmorlevel2.jpg" />
+    <Upgrade Title="Infantry Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryarmorlevel3.jpg" />
+    <Upgrade Title="Infantry Weapon Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryweaponslevel1.jpg" />
+    <Upgrade Title="Infantry Weapon Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryweaponslevel2.jpg" />
+    <Upgrade Title="Infantry Weapon Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryweaponslevel3.jpg" />
+    <Upgrade Title="Stimpack" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-stimpack-color.jpg" />
+    <Upgrade Title="Combat Shield" ImgPath="/Assets/Terran/Upgrade/btn-techupgrade-terran-combatshield-color.jpg" />
+    <Upgrade Title="Personnal Cloaking" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-cloak-color.jpg" />
+    <Upgrade Title="Moebius Reactor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-moebiusreactor.jpg" />
+    <Upgrade Title="Vehicle Weapons Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel1.jpg" />
+    <Upgrade Title="Vehicle Weapons Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel2.jpg" />
+    <Upgrade Title="Vehicle Weapons Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel3.jpg" />
+    <Upgrade Title="Vehicle Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel1.jpg" />
+    <Upgrade Title="Vehicle Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel2.jpg" />
+    <Upgrade Title="Vehicle Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel3.jpg" />
+    <Upgrade Title="Infernal Pre-Igniter" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infernalpreigniter.jpg" />
+    <Upgrade Title="Ship Weapons Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-shipweaponslevel1.jpg" />
+    <Upgrade Title="Ship Weapons Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-shipweaponslevel2.jpg" />
+    <Upgrade Title="Ship Weapons Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-shipweaponslevel3.jpg" />
+    <Upgrade Title="Vehicle Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel1.jpg" />
+    <Upgrade Title="Vehicle Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel2.jpg" />
+    <Upgrade Title="Vehicle Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel3.jpg" />
+    <Upgrade Title="Caduceus Reactor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-caduceusreactor.jpg" />
+    <Upgrade Title="Corvid Reactor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-corvidreactor.jpg" />
+    <Upgrade Title="Durable Materials" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-durablematerials.jpg" />
+    <Upgrade Title="Cloaking Field" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-cloak-color.jpg" />
+    <Upgrade Title="Weapon Refit" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-yamatogun-color.jpg" />
+    <Upgrade Title="Behemoth Reactor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-behemothreactor.jpg" />
+    <Ability Title="Hellion Mode" ImgPath="/Assets/Terran/Upgrade/btn-unit-terran-hellion.jpg" />
+  </Upgrades>
+  <Abilities>
+    <Ability Title="Use StimPack" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-stimpack-color.jpg" />
+    <Ability Title="Repair" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-repair.jpg" />
+    <Ability Title="Gather" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-gather.jpg" />
+    <Ability Title="Concussive Shells" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-punishergrenade-color.jpg" />
+    <Ability Title="Jet Pack" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-jetpack-color.jpg" />
+    <Ability Title="Combat Drugs" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-reapercombatdrugs.jpg" />
+    <Upgrade Title="Personnal Cloaking" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-cloak-color.jpg" />
+    <Upgrade Title="Moebius Reactor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-moebiusreactor.jpg" />
+    <Ability Title="Hellbat Transformation" ImgPath="/Assets/Terran/Upgrade/btn-unit-terran-hellionbattlemode.jpg" />
+    <Ability Title="Siege Mode" ImgPath="/Assets/Terran/Upgrade/btn-unit-terran-siegetanksiegemode.jpg" />
+    <Ability Title="High Impact Payload" ImgPath="/Assets/Terran/Upgrade/btn-unit-terran-thorsiegemode.jpg" />
+    <Ability Title="Explosive Payload" ImgPath="/Assets/Terran/Upgrade/btn-unit-terran-thor.jpg" />
+    <Ability Title="Assault Mode" ImgPath="/Assets/Terran/Upgrade/btn-unit-terran-vikingassault.jpg" />
+    <Ability Title="Fighter Mode" ImgPath="/Assets/Terran/Upgrade/btn-unit-terran-vikingfighter.jpg" />
+    <Ability Title="Heal" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-heal-color.jpg" />
+    <Ability Title="Ignite Afterburners" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-medivacemergencythrusters.jpg" />
+    <Ability Title="Build Auto-Turret" ImgPath="/Assets/Terran/Upgrade/btn-building-terran-autoturret.jpg" />
+    <Ability Title="Seeker Missile" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-huntermissile-color.jpg" />
+    <Ability Title="Build Point Defense Drone" ImgPath="/Assets/Terran/Upgrade/btn-unit-terran-targetingdrone.jpg" />
+    <Ability Title="Detector" ImgPath="/Assets/Terran/Upgrade/btn-status-detector.jpg" />
+    <Ability Title="Cloak" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-cloak-color.jpg" />
+    <Ability Title="Yamato Cannon" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-yamatogun-color.jpg" />
+    <Ability Title="Activate Mine" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-activatemine.jpg" />
+    <Ability Title="Sentinel Missiles" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-unstablepayload.jpg" />
+    <Ability Title="Cloak" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-cloak-color.jpg" />
+    <Ability Title="Sniper Round" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-snipe-color.jpg" />
+    <Ability Title="Tac Nuke Strike" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-nuclearstrike-color.jpg" />
+    <Ability Title="Hold Fire" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-holdfire.jpg" />
+    <Ability Title="Weapons Free" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-weaponsfree.jpg" />
+    <Ability Title="EMP Round" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-emp-color.jpg" />
+  </Abilities>
+  </Terran>
+  <Protoss>
+    <Upgrades>
+      <Upgrade Title="Ground Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel1.jpg" />
+      <Upgrade Title="Ground Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel2.jpg" />
+      <Upgrade Title="Ground Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel3.jpg" />
+      <Upgrade Title="Shields Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel1.jpg" />
+      <Upgrade Title="Shields Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel2.jpg" />
+      <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+      <Upgrade Title="Ground Weapons Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+      <Upgrade Title="Ground Weapons Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+      <Upgrade Title="Ground Weapons Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+      <Upgrade Title="Charge" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-charge-color.jpg" />
+      <Upgrade Title="Blink" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-blink-color.jpg" />
+      <Upgrade Title="Psionic Storm" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-psistorm-color.jpg" />
+      <Upgrade Title="Gravitic Booster" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-graviticbooster.jpg" />
+      <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+      <Upgrade Title="Air Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel1.jpg" />
+      <Upgrade Title="Air Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel2.jpg" />
+      <Upgrade Title="Air Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel3.jpg" />
+      <Upgrade Title="Air Weapons Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel1.jpg" />
+      <Upgrade Title="Air Weapons Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel2.jpg" />
+      <Upgrade Title="Air Weapons Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel3.jpg" />
+      <Upgrade Title="Anion Pulse Crystals" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-phoenixrange.jpg" />
+      <Upgrade Title="Gravitic Drive" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-graviticdrive.jpg" />
+      <Upgrade Title="Extended Thermal Lance" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+    </Upgrades>
+    <Abilities>
+      <Ability Title="Gather" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-gather.jpg" />
+      <Ability Title="Charge" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-charge-color.jpg" />
+      <Ability Title="Blink" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-blink-color.jpg" />
+      <Ability Title="Archon Warp" ImgPath="/Assets/Protoss/Upgrade/btn-unit-protoss-archon.jpg" />
+      <Ability Title="Psionic Storm" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-psistorm-color.jpg" />
+      <Ability Title="Feedback" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-feedback-color.jpg" />
+      <Ability Title="Permanently Cloaked" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-permanentlycloaked-darktemplar-color.jpg" />
+      <Ability Title="Archon Warp" ImgPath="/Assets/Protoss/Upgrade/btn-unit-protoss-archon.jpg" />
+      <Ability Title="Force Field" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-forcefield-color.jpg" />
+      <Ability Title="Hallucination" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-hallucination-color.jpg" />
+      <Ability Title="Guardian Shield" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-shieldbattery-color.jpg" />
+      <Ability Title="Permanently Cloaked" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-permanentlycloaked-observer-color.jpg" />
+      <Ability Title="Detector" ImgPath="/Assets/Protoss/Upgrade/btn-status-detector.jpg" />
+      <Ability Title="Hardened Shield" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-hardenedshields-color.jpg" />
+      <Ability Title="Phasing Mode" ImgPath="/Assets/Protoss/Upgrade/btn-unit-protoss-warpprismstationary.jpg" />
+      <Ability Title="Cliff Walk" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-cliffwalk-color.jpg" />
+      <Ability Title="Graviton Beam" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-gravitonbeam-color.jpg" />
+      <Ability Title="Prismatic Alignment" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-voidrayprismaticalignment.jpg" />
+      <Ability Title="Build Interceptor" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-Interceptor-color.jpg" />
+      <Ability Title="Graviton Catapult" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-GravitonCatapult-color.png" />
+      <Ability Title="Time Warp" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-timewarp.jpg" />
+      <Ability Title="Mass Recall" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-massrecall.jpg" />
+      <Ability Title="Cloaking Field" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-cloakfield-color.jpg" />
+      <Ability Title="Photon Overcharge" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-purify.jpg" />
+      <Ability Title="MotherShip Transformation" ImgPath="/Assets/Protoss/Upgrade/btn-unit-protoss-mothership.jpg" />
+      <Ability Title="Revelation" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-preordain.jpg" />
+      <Ability Title="Envision" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-envision.jpg" />
+      <Ability Title="Activate Pulsar Beam" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-oraclepulsarcannonon.jpg" />
+    </Abilities>
+  </Protoss>
+  <Zerg>
+    <Upgrades>
+      <Upgrade Title="Ground Carapace Lvl1" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-groundcarapace-level1.jpg" />
+      <Upgrade Title="Ground Carapace Lvl2" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-groundcarapace-level2.jpg" />
+      <Upgrade Title="Ground Carapace Lvl3" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-groundcarapace-level3.jpg" />
+      <Upgrade Title="Melee Attacks Lvl1" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-meleeattacks-level1.jpg" />
+      <Upgrade Title="Melee Attacks Lvl2" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-meleeattacks-level2.jpg" />
+      <Upgrade Title="Melee Attacks Lvl3" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-meleeattacks-level3.jpg" />
+      <Upgrade Title="Adrenal Glands" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-adrenalglands.jpg" />
+      <Upgrade Title="Metabolic Boost" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-metabolicboost.jpg" />
+      <Upgrade Title="Burrow" ImgPath="/Assets/Zerg/Upgrade/btn-ability-zerg-burrow-color.jpg" />
+      <Upgrade Title="Centrifugal Hooks" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-centrifugalhooks.jpg" />
+      <Upgrade Title="Glial Reconstitution" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-glialreconstitution.jpg" />
+      <Upgrade Title="Tunneling claws" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-tunnelingclaws.jpg" />
+      <Upgrade Title="Missile Attacks Lvl1" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-missileattacks-level1.jpg" />
+      <Upgrade Title="Missile Attacks Lvl2" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-missileattacks-level2.jpg" />
+      <Upgrade Title="Missile Attacks Lvl3" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-missileattacks-level3.jpg" />
+      <Upgrade Title="Grooved Spines" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-groovedspines.jpg" />
+      <Upgrade Title="Muscular Augments" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-evolvemuscularaugments.jpg" />
+      <Upgrade Title="Pneumatized Carapace" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-pneumatizedcarapace.jpg" />
+      <Upgrade Title="Ventral Sacs" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-ventralsacs.jpg" />
+      <Upgrade Title="Pathogen Glands" ImgPath="/Assets/Zerg/Upgrade/btn-ability-zerg-burrow-color.jpg" />
+      <Upgrade Title="Neural Parasite" ImgPath="/Assets/Zerg/Upgrade/btn-ability-zerg-burrow-color.jpg" />
+      <Upgrade Title="Flyer Carapace Lvl1" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-flyercarapace-level1.jpg" />
+      <Upgrade Title="Flyer Carapace Lvl2" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-flyercarapace-level2.jpg" />
+      <Upgrade Title="Flyer Carapace Lvl3" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-flyercarapace-level3.jpg" />
+      <Upgrade Title="Flyer Attacks Lvl1" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-airattacks-level1.jpg" />
+      <Upgrade Title="Flyer Attacks Lvl2" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-airattacks-level2.jpg" />
+      <Upgrade Title="Flyer Attacks Lvl3" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-airattacks-level3.jpg" />
+      <Upgrade Title="Chitinous Plating" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-chitinousplating.jpg" />
+    </Upgrades>
+    <Abilities>
+      <Ability Title="Burrow" ImgPath="/Assets/Zerg/Upgrade/btn-ability-zerg-burrow-color.jpg" />
+      <Ability Title="Explode" ImgPath="/Assets/Zerg/Upgrade/btn-ability-zerg-explode-color.jpg" />
+      <Ability Title="Enable Strucuture Attack" ImgPath="/Assets/Zerg/Upgrade/btn-ability-zerg-attackstructure-color.jpg" />
+      <Ability Title="Rapid Regeneration" ImgPath="/Assets/Zerg/Upgrade/btn-ability-zerg-rapidregeneration-color.jpg" />
+      <Ability Title="Morph to Overseer" ImgPath="/Assets/Zerg/Upgrade/btn-unit-zerg-overseer.jpg" />
+      <Ability Title="Generate Creep" ImgPath="/Assets/Zerg/Upgrade/btn-ability-zerg-generatecreep-color.jpg" />
+      <Ability Title="Spawn Larvae" ImgPath="/Assets/Zerg/Upgrade/btn-unit-zerg-larva.jpg" />
+      <Ability Title="Transfusion" ImgPath="/Assets/Zerg/Upgrade/btn-ability-zerg-transfusion-color.jpg" />
+      <Ability Title="Spawn Creep Tumor" ImgPath="/Assets/Zerg/Upgrade/btn-building-zerg-creeptumor.jpg" />
+      <Ability Title="Neural Parasite" ImgPath="/Assets/Zerg/Upgrade/btn-ability-zerg-burrow-color.jpg" />
+      <Ability Title="Infested Terran" ImgPath="/Assets/Zerg/Upgrade/btn-unit-zerg-infestedmarine.jpg" />
+      <Ability Title="Fungal Growth" ImgPath="/Assets/Zerg/Upgrade/btn-ability-zerg-fungalgrowth-color.jpg" />
+      <Ability Title="Tissue Regeneration" ImgPath="/Assets/Zerg/Upgrade/btn-upgrade-zerg-rapidregeneration.jpg" />
+      <Ability Title="Corruption" ImgPath="/Assets/Zerg/Upgrade/btn-ability-zerg-corruption-color.jpg" />
+      <Ability Title="Morph to Brood Lord" ImgPath="/Assets/Zerg/Upgrade/btn-unit-zerg-broodlord.jpg" />
+      <Ability Title="Frenzied" ImgPath="/Assets/Zerg/Upgrade/btn-ability-zerg-frenzied-color.jpg" />
+      <Ability Title="Swarm Seeds" ImgPath="/Assets/Zerg/Upgrade/btn-ability-zerg-swarmseeds-color.jpg" />
+      <Ability Title="Spawn Locusts" ImgPath="/Assets/Protoss/Upgrade/btn-unit-zerg-locust.jpg" />
+      <Ability Title="Consume" ImgPath="/Assets/Zerg/Upgrade/btn-ability-zerg-consume.jpg" />
+      <Ability Title="Blinding Cloud" ImgPath="/Assets/Zerg/Upgrade/btn-ability-zerg-blindingcloud.jpg" />
+      <Ability Title="Abduct" ImgPath="/Assets/Zerg/Upgrade/btn-ability-zerg-abduct.jpg" />
+    </Abilities>
+  </Zerg>
+</Race>

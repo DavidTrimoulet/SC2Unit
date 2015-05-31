@@ -1,0 +1,32 @@
+﻿<vm:Unit
+    
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+xmlns:vm="clr-namespace:SC2Unit.ViewModels;assembly=SC2Unit"
+xmlns:sys="clr-namespace:System;assembly=mscorlib"
+    
+    Title = "VCS"
+    ImgPath = "/Assets/Unit/Terran/VCS.png"
+    Minerai="50"
+    Vespene="0" 
+    Ravitaillement="1"
+    Construction_Time="17"
+    BuildIn="Centre de commandement"
+    Vie="45"
+    Energie="0"
+    Bouclier="0"
+    Armure="0"
+    >
+    <vm:Unit.StrongAgainst>
+        
+    </vm:Unit.StrongAgainst>
+    <vm:Unit.WeakAgainst>
+       
+    </vm:Unit.WeakAgainst>
+        
+    
+    
+    
+
+    
+</vm:Unit>

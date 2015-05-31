@@ -1,0 +1,32 @@
+﻿<Race>
+  <Terran>
+    <BuildOrder Title="Proxy Two Raxx">
+      <Order Timing="10" Content="Do a SCV and send another to your opponent base"/>
+      <Order Timing="20" Content="Do a SCV and send a second to your opponent base" />
+      <Order Timing="30" Content="Do a Barrack in your opponent first expand spot"/>
+      <Order Timing="40" Content="Do a second Barrack in your opponent first expand spot"/>
+      <Order Timing="50" Content="Do a drone and send another to your opponent base"/>
+      <Order Timing="60" Content="Do a drone and send another to your opponent base"/>
+    </BuildOrder>
+  </Terran>
+  <Protoss>
+    <BuildOrder Title="Two Gate Proxy">
+      <Order Timing="0" Content="Do a drone and send another to your opponent base"/>
+      <Order Timing="17" Content="Put a pylon in your opponent base" />
+      <Order Timing="34" Content="Do a drone and send another to your opponent base"/>
+      <Order Timing="72" Content="Do a drone and send another to your opponent base"/>
+      <Order Timing="100" Content="Do a drone and send another to your opponent base"/>
+      <Order Timing="125" Content="Do a drone and send another to your opponent base"/>
+    </BuildOrder>
+  </Protoss>
+  <Zerg>
+    <BuildOrder Title="Six Pool">
+      <Order Timing="0" Content="Do a spawning pool"/>
+      <Order Timing="17" Content="Do Zerglings" />
+      <Order Timing="34" Content="Do Zerglings"/>
+      <Order Timing="72" Content="Do a vigilant"/>
+      <Order Timing="100" Content="Do Zerglings"/>
+      <Order Timing="125" Content="Do Zerglings"/>
+    </BuildOrder>
+  </Zerg>
+</Race>

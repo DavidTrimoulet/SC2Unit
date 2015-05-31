@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3BF86E83-9688-4201-8283-D4D7F5CB6120}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SC2Unit</RootNamespace>
+    <AssemblyName>SC2Unit</AssemblyName>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>SC2Unit_$(Configuration)_$(Platform).xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>SC2Unit.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AbilityOrUpgradeDetail.xaml.cs">
+      <DependentUpon>AbilityOrUpgradeDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BuildingDetail.xaml.cs">
+      <DependentUpon>BuildingDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BuildOrderDetail.xaml.cs">
+      <DependentUpon>BuildOrderDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BuildOrderUI.xaml.cs">
+      <DependentUpon>BuildOrderUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LocalizedStrings.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PlayManager.cs" />
+    <Compile Include="RaceBuilding.xaml.cs">
+      <DependentUpon>RaceBuilding.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RaceUnit.xaml.cs">
+      <DependentUpon>RaceUnit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\AppResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UnitDetail.xaml.cs">
+      <DependentUpon>UnitDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\Ability.cs" />
+    <Compile Include="ViewModels\MatchUp.cs" />
+    <Compile Include="ViewModels\Order.cs" />
+    <Compile Include="ViewModels\Upgrade.cs" />
+    <Compile Include="ViewModels\Building.cs" />
+    <Compile Include="ViewModels\BuildOrder.cs" />
+    <Compile Include="ViewModels\Race.cs" />
+    <Compile Include="ViewModels\RaceModel.cs" />
+    <Compile Include="ViewModels\Timing.cs" />
+    <Compile Include="ViewModels\Unit.cs" />
+    <Compile Include="ViewModels\Weapon.cs" />
+    <Compile Include="XMLparser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="AbilityOrUpgradeDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BuildingDetail.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="BuildOrderDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BuildOrderUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RaceBuilding.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RaceUnit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SampleData\SampleData.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Page>
+    <Page Include="SampleData\SampleUnit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UnitDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\AlignmentGrid.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Background.png" />
+    <Content Include="Assets\ApplicationIcon.png" />
+    <Content Include="Assets\Data\building.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Assets\Data\buildOrders.xml" />
+    <Content Include="Assets\Data\unit.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Data\UpgradeAndAbility.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Assets\IconicTileSmall.png" />
+    <Content Include="Assets\IconProperties\icon-buildtime-protoss.png" />
+    <Content Include="Assets\IconProperties\icon-buildtime-terran.png" />
+    <Content Include="Assets\IconProperties\icon-buildtime-zerg.png" />
+    <Content Include="Assets\IconProperties\icon-mineral.png" />
+    <Content Include="Assets\IconProperties\icon-supply-protoss.png" />
+    <Content Include="Assets\IconProperties\icon-supply-terran.png" />
+    <Content Include="Assets\IconProperties\icon-supply-zerg.png" />
+    <Content Include="Assets\Protoss\icon-title-protoss.png" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-GravitonCatapult-color.png" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-Interceptor-color.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-graviticdrive.jpg" />
+    <Content Include="Assets\Terran\icon-title-terran.png" />
+    <Content Include="Assets\Terran\Upgrade\btn-ability-terran-activatemine.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-ability-terran-gather.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-ability-terran-LiftOff-color.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-ability-terran-Load-color.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-ability-terran-repair.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-ability-terran-snipe-color.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-ability-terran-unstablepayload.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-ability-terran-weaponsfree.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-BuildingArmor.png" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-NeoSteelFrame.png" />
+    <Content Include="Assets\Zerg\icon-title-zerg.png" />
+    <Content Include="Assets\IconProperties\icon-vespene-protoss.png" />
+    <Content Include="Assets\IconProperties\icon-vespene-terran.png" />
+    <Content Include="Assets\IconProperties\icon-vespene-zerg.png" />
+    <Content Include="Assets\Protoss\Building\Assimilator.png" />
+    <Content Include="Assets\Protoss\Building\CyberneticsCore.png" />
+    <Content Include="Assets\Protoss\Building\DarkShrine.png" />
+    <Content Include="Assets\Protoss\Building\FleetBeacon.png" />
+    <Content Include="Assets\Protoss\Building\Forge.png" />
+    <Content Include="Assets\Protoss\Building\Nexus.png" />
+    <Content Include="Assets\Protoss\Building\WarpGate.png" />
+    <Content Include="Assets\Protoss\Building\PhotonCannon.png" />
+    <Content Include="Assets\Protoss\Building\Gateway.png" />
+    <Content Include="Assets\Protoss\Building\Pylon.png" />
+    <Content Include="Assets\Protoss\Building\RoboticsBay.png" />
+    <Content Include="Assets\Protoss\Building\RoboticsFacility.png" />
+    <Content Include="Assets\Protoss\Building\StarGate.png" />
+    <Content Include="Assets\Protoss\Building\TemplarArchives.png" />
+    <Content Include="Assets\Protoss\Building\TwilightCouncil.png" />
+    <Content Include="Assets\Protoss\Unit\Archon.png" />
+    <Content Include="Assets\Protoss\Unit\Carrier.png" />
+    <Content Include="Assets\Protoss\Unit\Colossus.png" />
+    <Content Include="Assets\Protoss\Unit\DarkTemplar.png" />
+    <Content Include="Assets\Protoss\Unit\HighTemplar.png" />
+    <Content Include="Assets\Protoss\Unit\Immortal.png" />
+    <Content Include="Assets\Protoss\Unit\MotherShip.png" />
+    <Content Include="Assets\Protoss\Unit\MothershipCore.png" />
+    <Content Include="Assets\Protoss\Unit\Observer.png" />
+    <Content Include="Assets\Protoss\Unit\Oracle.png" />
+    <Content Include="Assets\Protoss\Unit\Phoenix.png" />
+    <Content Include="Assets\Protoss\Unit\Probe.png" />
+    <Content Include="Assets\Protoss\Unit\Sentry.png" />
+    <Content Include="Assets\Protoss\Unit\Stalker.png" />
+    <Content Include="Assets\Protoss\Unit\Tempest.png" />
+    <Content Include="Assets\Protoss\Unit\VoidRay.png" />
+    <Content Include="Assets\Protoss\Unit\WarpPrism.png" />
+    <Content Include="Assets\Protoss\Unit\Zealot.png" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-blackhole-color.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-blink-color.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-charge-color.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-cliffwalk-color.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-cloakfield-color.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-envision.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-feedback-color.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-forcefield-color.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-gather.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-gravitonbeam-color.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-hallucination-color.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-hardenedshields-color.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-massrecall.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-oraclepulsarcannonon.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-permanentlycloaked-darktemplar-color.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-permanentlycloaked-observer-color.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-preordain.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-prismaticbeam-color.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-psistorm-color.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-purify.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-shieldbattery-color.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-timewarp.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-ability-protoss-voidrayprismaticalignment.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-status-detector.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-unit-protoss-archon.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-unit-protoss-mothership.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-unit-protoss-warpprismstationary.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-airarmorlevel1.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-airarmorlevel2.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-airarmorlevel3.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-airweaponslevel0.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-airweaponslevel1.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-airweaponslevel2.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-airweaponslevel3.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-extendedthermallance.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-graviticbooster.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-groundarmorlevel1.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-groundarmorlevel2.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-groundarmorlevel3.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-groundweaponslevel0.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-groundweaponslevel1.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-groundweaponslevel2.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-groundweaponslevel3.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-phoenixrange.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-shieldslevel1.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-shieldslevel2.jpg" />
+    <Content Include="Assets\Protoss\Upgrade\btn-upgrade-protoss-shieldslevel3.jpg" />
+    <Content Include="Assets\Terran\Building\Armory.png" />
+    <Content Include="Assets\Terran\Building\Barracks.png" />
+    <Content Include="Assets\Terran\Building\Bunker.png" />
+    <Content Include="Assets\Terran\Building\CommandCenter.png" />
+    <Content Include="Assets\Terran\Building\DepotSupply.png" />
+    <Content Include="Assets\Terran\Building\EngineeringBay.png" />
+    <Content Include="Assets\Terran\Building\Factory.png" />
+    <Content Include="Assets\Terran\Building\FusionCore.png" />
+    <Content Include="Assets\Terran\Building\GhostAcademy.png" />
+    <Content Include="Assets\Terran\Building\MissileTurret.png" />
+    <Content Include="Assets\Terran\Building\OrbitalCommand.png" />
+    <Content Include="Assets\Terran\Building\PlanetaryFortress.png" />
+    <Content Include="Assets\Terran\Building\Reactor.png" />
+    <Content Include="Assets\Terran\Building\Refinery.png" />
+    <Content Include="Assets\Terran\Building\SensorTower.png" />
+    <Content Include="Assets\Terran\Building\Starport.png" />
+    <Content Include="Assets\Terran\Building\TechLab.png" />
+    <Content Include="Assets\Terran\Unit\Banshee.png" />
+    <Content Include="Assets\Terran\Unit\Battlecruiser.png" />
+    <Content Include="Assets\Terran\Unit\Ghost.png" />
+    <Content Include="Assets\Terran\Unit\Hellbat.png" />
+    <Content Include="Assets\Terran\Unit\Hellion.png" />
+    <Content Include="Assets\Terran\Unit\Marauder.png" />
+    <Content Include="Assets\Terran\Unit\Marine.png" />
+    <Content Include="Assets\Terran\Unit\Medivac.png" />
+    <Content Include="Assets\Terran\Unit\Raven.png" />
+    <Content Include="Assets\Terran\Unit\Reaper.png" />
+    <Content Include="Assets\Terran\Unit\SiegeTank.png" />
+    <Content Include="Assets\Terran\Unit\SCV.png" />
+    <Content Include="Assets\Terran\Unit\Tank.png" />
+    <Content Include="Assets\Terran\Unit\Thor.png" />
+    <Content Include="Assets\Terran\Unit\VikingFighter.png" />
+    <Content Include="Assets\Terran\Unit\VikingAssault.png" />
+    <Content Include="Assets\Terran\Unit\WidowMine.png" />
+    <Content Include="Assets\Terran\Upgrade\btn-ability-terran-bombardmentstrike-color.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-ability-terran-cloak-color.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-ability-terran-emp-color.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-ability-terran-heal-color.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-ability-terran-holdfire.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-ability-terran-huntermissile-color.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-ability-terran-jetpack-color.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-ability-terran-nuclearstrike-color.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-ability-terran-punishergrenade-color.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-ability-terran-stimpack-color.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-ability-terran-yamatogun-color.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-building-terran-autoturret.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-status-detector.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-techupgrade-terran-combatshield-color.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-unit-terran-hellion.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-unit-terran-hellionbattlemode.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-unit-terran-siegetank.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-unit-terran-siegetanksiegemode.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-unit-terran-targetingdrone.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-unit-terran-thor.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-unit-terran-thorsiegemode.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-unit-terran-vikingassault.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-unit-terran-vikingfighter.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-behemothreactor.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-caduceusreactor.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-corvidreactor.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-durablematerials.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-infantryarmorlevel1.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-infantryarmorlevel2.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-infantryarmorlevel3.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-infantryweaponslevel1.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-infantryweaponslevel2.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-infantryweaponslevel3.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-infernalpreigniter.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-medivacemergencythrusters.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-moebiusreactor.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-reapercombatdrugs.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-shipplatinglevel1.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-shipplatinglevel2.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-shipplatinglevel3.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-shipweaponslevel0.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-shipweaponslevel1.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-shipweaponslevel2.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-shipweaponslevel3.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-vehicleplatinglevel1.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-vehicleplatinglevel2.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-vehicleplatinglevel3.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-vehicleweaponslevel0.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-vehicleweaponslevel1.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-vehicleweaponslevel2.jpg" />
+    <Content Include="Assets\Terran\Upgrade\btn-upgrade-terran-vehicleweaponslevel3.jpg" />
+    <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileMedium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileMediumLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Zerg\Building\BanelingNest.png" />
+    <Content Include="Assets\Zerg\Building\EvolutionChamber.png" />
+    <Content Include="Assets\Zerg\Building\Extractor.png" />
+    <Content Include="Assets\Zerg\Building\GreaterSpire.png" />
+    <Content Include="Assets\Zerg\Building\Hatchery.png" />
+    <Content Include="Assets\Zerg\Building\Hive.png" />
+    <Content Include="Assets\Zerg\Building\HydraliskDen.png" />
+    <Content Include="Assets\Zerg\Building\InfestationPit.png" />
+    <Content Include="Assets\Zerg\Building\Lair.png" />
+    <Content Include="Assets\Zerg\Building\NydusNetwork.png" />
+    <Content Include="Assets\Zerg\Building\RoachWarren.png" />
+    <Content Include="Assets\Zerg\Building\SpawningPool.png" />
+    <Content Include="Assets\Zerg\Building\SpineCrawler.png" />
+    <Content Include="Assets\Zerg\Building\Spire.png" />
+    <Content Include="Assets\Zerg\Building\SporeCrawler.png" />
+    <Content Include="Assets\Zerg\Building\UltraliskCavern.png" />
+    <Content Include="Assets\Zerg\Unit\Baneling.png" />
+    <Content Include="Assets\Zerg\Unit\broodlord.png" />
+    <Content Include="Assets\Zerg\Unit\Corruptor.png" />
+    <Content Include="Assets\Zerg\Unit\Drone.png" />
+    <Content Include="Assets\Zerg\Unit\Hydralisk.png" />
+    <Content Include="Assets\Zerg\Unit\Infestor.png" />
+    <Content Include="Assets\Zerg\Unit\Larva.png" />
+    <Content Include="Assets\Zerg\Unit\Mutalisk.png" />
+    <Content Include="Assets\Zerg\Unit\NydusWorm.png" />
+    <Content Include="Assets\Zerg\Unit\Overlord.png" />
+    <Content Include="Assets\Zerg\Unit\Overseer.png" />
+    <Content Include="Assets\Zerg\Unit\Queen.png" />
+    <Content Include="Assets\Zerg\Unit\Roach.png" />
+    <Content Include="Assets\Zerg\Unit\SwarmHost.png" />
+    <Content Include="Assets\Zerg\Unit\Ultralisk.png" />
+    <Content Include="Assets\Zerg\Unit\Viper.png" />
+    <Content Include="Assets\Zerg\Unit\Zergling.png" />
+    <Content Include="Assets\Zerg\Upgrade\btn-ability-zerg-abduct.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-ability-zerg-attackstructure-color.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-ability-zerg-blindingcloud.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-ability-zerg-burrow-color.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-ability-zerg-consume.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-ability-zerg-contaminate-color.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-ability-zerg-corruption-color.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-ability-zerg-explode-color.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-ability-zerg-frenzied-color.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-ability-zerg-fungalgrowth-color.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-ability-zerg-gather.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-ability-zerg-generatecreep-color.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-ability-zerg-neuralparasite-color.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-ability-zerg-rapidregeneration-color.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-ability-zerg-swarmseeds-color.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-ability-zerg-transfusion-color.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-building-zerg-creeptumor.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-status-detector.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-unit-zerg-broodlord.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-unit-zerg-changeling.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-unit-zerg-infestedmarine.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-unit-zerg-larva.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-unit-zerg-locust.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-unit-zerg-overseer.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-adrenalglands.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-airattacks-level0.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-airattacks-level1.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-airattacks-level2.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-airattacks-level3.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-centrifugalhooks.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-chitinousplating.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-evolvemuscularaugments.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-flyercarapace-level1.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-flyercarapace-level2.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-flyercarapace-level3.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-glialreconstitution.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-groovedspines.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-groundcarapace-level1.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-groundcarapace-level2.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-groundcarapace-level3.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-meleeattacks-level0.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-meleeattacks-level1.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-meleeattacks-level2.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-meleeattacks-level3.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-metabolicboost.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-missileattacks-level0.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-missileattacks-level1.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-missileattacks-level2.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-missileattacks-level3.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-pathogenglands.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-pneumatizedcarapace.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-rapidregeneration.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-tunnelingclaws.jpg" />
+    <Content Include="Assets\Zerg\Upgrade\btn-upgrade-zerg-ventralsacs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>

@@ -1,0 +1,1054 @@
+<Race>
+  <Terran>
+    <Building ID="0" Title="Command Center" ImgPath="/Assets/Terran/Building/CommandCenter.png" Minerai="400" Vespene="0" Ravitaillement="11" Construction_Time="100" Vie="1500" Energie="200" Armure="1" Bouclier="0" >
+      <Require>
+        <Building Title="" ImgPath="" />
+      </Require>
+      <GrantAccessTo>
+        <Building Title="Barracks" ImgPath="/Assets/Terran/Building/Barracks.png" />
+        <Building Title="Supply Depot" ImgPath="/Assets/Terran/Building/DepotSupply.png" />
+        <Building Title="Refinery" ImgPath="/Assets/Terran/Building/Refinery.png" />
+        <Building Title="Engineering Bay" ImgPath="/Assets/Terran/Building/EngineeringBay.png" />
+      </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="SCV" ImgPath="/Assets/Terran/Unit/SCV.png" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="Lift Off" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-LiftOff-color.jpg" />
+        <Ability Title="Load" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-Load-color.jpg" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="Building Armor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-BuildingArmor.png" />
+        <Upgrade Title="Neosteel Frame" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-NeoSteelFrame.png" />
+      </Upgrades>
+    </Building>
+    <Building ID="1" Title="Supply Depot" ImgPath="/Assets/Terran/Building/DepotSupply.png" Minerai="100" Vespene="0" Ravitaillement="8" Construction_Time="40" Vie="500" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Command Center" ImgPath="/Assets/Terran/Building/CommandCenter.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <Upgrades>
+        <Upgrade Title="Building Armor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-BuildingArmor.png" />
+      </Upgrades>
+    </Building>
+    <Building ID="2" Title="Barracks" ImgPath="/Assets/Terran/Building/Barracks.png" Minerai="150" Vespene="0" Ravitaillement="0" Construction_Time="80" Vie="1000" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Command Center" ImgPath="/Assets/Terran/Building/CommandCenter.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="Bunker" ImgPath="/Assets/Terran/Building/Bunker.png" />
+      <Building Title="Factory" ImgPath="/Assets/Terran/Building/Factory.png" />
+      <Building Title="Ghost Academy" ImgPath="/Assets/Terran/Building/GhostAcademy.png" />
+      <Building Title="Orbital Command" ImgPath="/Assets/Terran/Building/OrbitalCommand.png" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="Marine" ImgPath="/Assets/Terran/Unit/Marine.png" />
+        <Unit Title="Marauder" ImgPath="/Assets/Terran/Unit/Marauder.png" />
+        <Unit Title="Reaper" ImgPath="/Assets/Terran/Unit/Reaper.png" />
+        <Unit Title="Ghost" ImgPath="/Assets/Terran/Unit/Ghost.png" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="Building Armor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-BuildingArmor.png" />
+      </Upgrades>
+    </Building>
+    <Building ID="3" Title="Engineering Bay" ImgPath="/Assets/Terran/Building/EngineeringBay.png" Minerai="125" Vespene="0" Ravitaillement="0" Construction_Time="35" Vie="850" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Command Center" ImgPath="/Assets/Terran/Building/CommandCenter.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="Missile Turret" ImgPath="/Assets/Terran/Building/MissileTurret.png" />
+      <Building Title="Planetary Fortress" ImgPath="/Assets/Terran/Building/PlanetaryFortress.png" />
+      <Building Title="Sensor Tower" ImgPath="/Assets/Terran/Building/SensorTower.png" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="4" Title="Armory" ImgPath="/Assets/Terran/Building/Armory.png" Minerai="150" Vespene="100" Ravitaillement="0" Construction_Time="65" Vie="750" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Factory" ImgPath="/Assets/Terran/Building/Factory.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+    </Building>
+    <CanProduce>
+      <Unit Title="" ImgPath="" />
+    </CanProduce>
+    <CanResearch>
+      <Upgrade Title="Vehicle Weapons Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel1.jpg" />
+      <Upgrade Title="Vehicle Weapons Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel2.jpg" />
+      <Upgrade Title="Vehicle Weapons Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel3.jpg" />
+      <Upgrade Title="Vehicle Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel1.jpg" />
+      <Upgrade Title="Vehicle Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel2.jpg" />
+      <Upgrade Title="Vehicle Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel3.jpg" />
+      <Upgrade Title="Ship Weapons Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-shipweaponslevel1.jpg" />
+      <Upgrade Title="Ship Weapons Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-shipweaponslevel2.jpg" />
+      <Upgrade Title="Ship Weapons Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-shipweaponslevel3.jpg" />
+      <Upgrade Title="Vehicle Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel1.jpg" />
+      <Upgrade Title="Vehicle Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel2.jpg" />
+      <Upgrade Title="Vehicle Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel3.jpg" />
+      <Upgrade Title="Building Armor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-BuildingArmor.png" />
+    </CanResearch>
+    <Abilities>
+      <Ability Title="" ImgPath="" />
+    </Abilities>
+    <Upgrades>
+      <Upgrade Title="Building Armor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-BuildingArmor.png" />
+    </Upgrades>
+    <Building ID="5" Title="Bunker" ImgPath="/Assets/Terran/Building/Bunker.png" Minerai="100" Vespene="0" Ravitaillement="0" Construction_Time="40" Vie="400" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Barracks" ImgPath="/Assets/Terran/Building/Barracks.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="6" Title="Factory" ImgPath="/Assets/Terran/Building/Factory.png" Minerai="150" Vespene="100" Ravitaillement="0" Construction_Time="60" Vie="1250" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Barracks" ImgPath="/Assets/Terran/Building/Barracks.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="Starport" ImgPath="/Assets/Terran/Building/Starport.png" />
+      <Building Title="Armory" ImgPath="/Assets/Terran/Building/Armory.png" />
+    </GrantAccessTo>
+      <CanProduce>
+        <unit Title="Siege Tank" ImgPath="/Assets/Terran/Unit/SiegeTank.png" />
+        <unit Title="Siege Tank" ImgPath="/Assets/Terran/Unit/SiegeTank.png" />
+        <unit Title="Siege Tank" ImgPath="/Assets/Terran/Unit/SiegeTank.png" />
+        <unit Title="Siege Tank" ImgPath="/Assets/Terran/Unit/SiegeTank.png" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="7" Title="Fusion Core" ImgPath="/Assets/Terran/Building/FusionCore.png" Minerai="150" Vespene="150" Ravitaillement="0" Construction_Time="65" Vie="750" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Starport" ImgPath="/Assets/Terran/Building/Starport.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="Building Armor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-BuildingArmor.png" />
+        </Upgrades>
+      </Building>
+    <Building ID="8" Title="Ghost Academy" ImgPath="/Assets/Terran/Building/GhostAcademy.png" Minerai="150" Vespene="0" Ravitaillement="0" Construction_Time="80" Vie="1000" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Barracks" ImgPath="/Assets/Terran/Building/Barracks.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="test" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="Building Armor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-BuildingArmor.png" />
+      </Upgrades>
+    </Building>
+    <Building ID="9" Title="Missile Turret" ImgPath="/Assets/Terran/Building/MissileTurret.png" Minerai="75" Vespene="0" Ravitaillement="30" Construction_Time="30" Vie="200" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Engineering Bay" ImgPath="/Assets/Terran/Building/EngineeringBay.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="Building Armor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-BuildingArmor.png" />
+      </Upgrades>
+    </Building>
+    <Building ID="10" Title="Orbital Command" ImgPath="/Assets/Terran/Building/OrbitalCommand.png" Minerai="150" Vespene="100" Ravitaillement="0" Construction_Time="60" Vie="1250" Energie="200" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Barracks" ImgPath="/Assets/Terran/Building/Barracks.png"  />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="Building Armor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-BuildingArmor.png" />
+      </Upgrades>
+    </Building>
+    <Building ID="11" Title="Planetary Fortress" ImgPath="/Assets/Terran/Building/PlanetaryFortress.png" Minerai="150" Vespene="150" Ravitaillement="11" Construction_Time="50" Vie="1500" Energie="200" Armure="3" Bouclier="0" >
+    <Require>
+      <Building Title="Engineering Bay" ImgPath="/Assets/Terran/Building/EngineeringBay.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="test" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="Building Armor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-BuildingArmor.png" />
+      </Upgrades>
+    </Building>
+    <Building ID="12" Title="Reactor" ImgPath="/Assets/Terran/Building/Reactor.png" Minerai="50" Vespene="50" Ravitaillement="0" Construction_Time="50" Vie="400" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Barracks" ImgPath="/Assets/Terran/Building/Barracks.png" />
+      <Building Title="Factory" ImgPath="/Assets/Terran/Building/Factory.png" />
+      <Building Title="Starport" ImgPath="/Assets/Terran/Building/Starport.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="Building Armor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-BuildingArmor.png" />
+      </Upgrades>
+    </Building>
+    <Building ID="13" Title="Refinery" ImgPath="/Assets/Terran/Building/Refinery.png" Minerai="75" Vespene="0" Ravitaillement="0" Construction_Time="30" Vie="500" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="" ImgPath="" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="Building Armor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-BuildingArmor.png" />
+      </Upgrades>
+    </Building>
+    <Building ID="14" Title="Sensor Tower" ImgPath="/Assets/Terran/Building/SensorTower.png" Minerai="125" Vespene="100" Ravitaillement="0" Construction_Time="25" Vie="200" Energie="0" Armure="0" Bouclier="0" >
+    <Require>
+      <Building Title="Engineering Bay" ImgPath="/Assets/Terran/Building/EngineeringBay.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="Building Armor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-BuildingArmor.png" />
+      </Upgrades>
+    </Building>
+    <Building ID="15" Title="Starport" ImgPath="/Assets/Terran/Building/Starport.png" Minerai="150" Vespene="100" Ravitaillement="0" Construction_Time="50" Vie="1300" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Factory" ImgPath="/Assets/Terran/Building/Factory.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="Building Armor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-BuildingArmor.png" />
+      </Upgrades>
+    </Building>
+    <Building ID="16" Title="Tech Lab" ImgPath="/Assets/Terran/Building/TechLab.png" Minerai="50" Vespene="25" Ravitaillement="0" Construction_Time="25" Vie="400" Energie="0" Armure="1" Bouclier="0" >
+      <Require>
+        <Building Title="Barracks" ImgPath="/Assets/Terran/Building/Barracks.png" />
+        <Building Title="Factory" ImgPath="/Assets/Terran/Building/Factory.png" />
+        <Building Title="Starport" ImgPath="/Assets/Terran/Building/Starport.png" />
+      </Require>
+      <GrantAccessTo>
+        <Building Title="test" ImgPath="" />
+      </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="Building Armor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-BuildingArmor.png" />
+      </Upgrades>
+    </Building>
+  </Terran>
+  <Protoss>
+    <Building ID="0" Title="Assimilator" ImgPath="/Assets/Protoss/Building/Assimilator.png" Minerai="75" Vespene="0" Ravitaillement="0" Construction_Time="30" Vie="450" Energie="0" Armure="1" Bouclier="450" >
+    <Require>
+      <Building Title="" ImgPath="" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="Building Armor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-BuildingArmor.png" />
+      </Upgrades>
+    </Building>
+    <Building ID="1" Title="Cybernetics Core" ImgPath="/Assets/Protoss/Building/CyberneticsCore.png" Minerai="150" Vespene="0" Ravitaillement="0" Construction_Time="50" Vie="550" Energie="0" Armure="1" Bouclier="550" >
+    <Require>
+      <Building Title="Gateway" ImgPath="/Assets/Protoss/Building/Gateway.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="Robotics Facility" ImgPath="/Assets/Protoss/Building/RoboticsFacility.png" />
+      <Building Title="Stargate" ImgPath="/Assets/Protoss/Building/StarGate.png" />
+      <Building Title="Twilight Council" ImgPath="/Assets/Protoss/Building/TwilightCouncil.png" />
+      <Building Title="Warp Gate" ImgPath="/Assets/Protoss/Building/WarpGate.png" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="2" Title="Dark Shrine" ImgPath="/Assets/Protoss/Building/DarkShrine.png" Minerai="150" Vespene="100" Ravitaillement="0" Construction_Time="100" Vie="500" Energie="0" Armure="1" Bouclier="500" >
+    <Require>
+      <Building Title="Twilight Council" ImgPath="/Assets/Protoss/Building/TwilightCouncil.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="3" Title="Fleet Beacon" ImgPath="/Assets/Protoss/Building/FleetBeacon.png" Minerai="300" Vespene="200" Ravitaillement="0" Construction_Time="60" Vie="500" Energie="0" Armure="1" Bouclier="500" >
+    <Require>
+      <Building Title="Stargate" ImgPath="/Assets/Protoss/Building/StarGate.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="4" Title="Forge" ImgPath="/Assets/Protoss/Building/Forge.png" Minerai="150" Vespene="0" Ravitaillement="0" Construction_Time="45" Vie="400" Energie="0" Armure="1" Bouclier="400" >
+    <Require>
+      <Building Title="" ImgPath="" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="Photon Cannon" ImgPath="/Assets/Protoss/Building/PhotonCannon.png" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="5" Title="Gateway" ImgPath="/Assets/Protoss/Building/Gateway.png" Minerai="150" Vespene="0" Ravitaillement="0" Construction_Time="65" Vie="500" Energie="0" Armure="1" Bouclier="500" >
+    <Require>
+      <Building Title="Nexus" ImgPath="/Assets/Protoss/Building/Nexus.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="Cybernetics Core" ImgPath="/Assets/Protoss/Building/CyberneticsCore.png" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="6" Title="Warp Gate" ImgPath="/Assets/Protoss/Building/WarpGate.png" Minerai="150" Vespene="0" Ravitaillement="0" Construction_Time="10" Vie="500" Energie="0" Armure="1" Bouclier="500" >
+    <Require>
+      <Building Title="Cybernetics Core" ImgPath="/Assets/Protoss/Building/CyberneticsCore.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="7" Title="Nexus" ImgPath="/Assets/Protoss/Building/Nexus.png" Minerai="400" Vespene="0" Ravitaillement="10" Construction_Time="100" Vie="1000" Energie="100" Armure="1" Bouclier="1000" >
+    <Require>
+      <Building Title="" ImgPath="" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="Pylon" ImgPath="/Assets/Protoss/Building/Pylon.png" />
+      <Building Title="Gateway" ImgPath="/Assets/Protoss/Building/Gateway.png" />
+      <Building Title="Assimilator" ImgPath="/Assets/Protoss/Building/Assimilator.png" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="8" Title="Photon Cannon" ImgPath="/Assets/Protoss/Building/PhotonCannon.png" Minerai="150" Vespene="0" Ravitaillement="0" Construction_Time="40" Vie="150" Energie="0" Armure="1" Bouclier="150" >
+    <Require>
+      <Building Title="Forge" ImgPath="/Assets/Protoss/Building/Forge.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="9" Title="Pylon" ImgPath="/Assets/Protoss/Building/Pylon.png" Minerai="100" Vespene="0" Ravitaillement="0" Construction_Time="25" Vie="200" Energie="0" Armure="1" Bouclier="200" >
+    <Require>
+      <Building Title="Nexus" ImgPath="/Assets/Protoss/Building/Nexus.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="test" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="10" Title="Robotics Bay" ImgPath="/Assets/Protoss/Building/RoboticsBay.png" Minerai="200" Vespene="200" Ravitaillement="0" Construction_Time="75" Vie="500" Energie="0" Armure="1" Bouclier="500" >
+    <Require>
+      <Building Title="Cybernetics Core" ImgPath="/Assets/Protoss/Building/CyberneticsCore.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="Robotics Facility" ImgPath="/Assets/Protoss/Building/RoboticsFacility.png" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="11" Title="Robotics Facility" ImgPath="/Assets/Protoss/Building/RoboticsFacility.png" Minerai="200" Vespene="100" Ravitaillement="0" Construction_Time="65" Vie="450" Energie="0" Armure="1" Bouclier="450" >
+    <Require>
+      <Building Title="Robotics Bay" ImgPath="/Assets/Protoss/Building/RoboticsBay.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="12" Title="Stargate" ImgPath="/Assets/Protoss/Building/StarGate.png" Minerai="150" Vespene="150" Ravitaillement="0" Construction_Time="60" Vie="600" Energie="0" Armure="1" Bouclier="600" >
+    <Require>
+      <Building Title="Cybernetics Core" ImgPath="/Assets/Protoss/Building/CyberneticsCore.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="Fleet Beacon" ImgPath="/Assets/Protoss/Building/FleetBeacon.png" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="13" Title="Templar Archives" ImgPath="/Assets/Protoss/Building/TemplarArchives.png" Minerai="150" Vespene="200" Ravitaillement="0" Construction_Time="50" Vie="500" Energie="0" Armure="1" Bouclier="500" >
+    <Require>
+      <Building Title="Twilight Council" ImgPath="/Assets/Protoss/Building/TwilightCouncil.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="14" Title="Twilight Council" ImgPath="/Assets/Protoss/Building/TwilightCouncil.png" Minerai="150" Vespene="100" Ravitaillement="0" Construction_Time="50" Vie="500" Energie="0" Armure="1" Bouclier="500" >
+      <Require>
+        <Building Title="Cybernetics Core" ImgPath="/Assets/Protoss/Building/CyberneticsCore.png" />
+      </Require>
+      <GrantAccessTo>
+        <Building Title="Templar Archives" ImgPath="/Assets/Protoss/Building/TemplarArchives.png" />
+      </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+  </Protoss>
+  <Zerg>
+    <Building ID="0" Title="Baneling Nest" ImgPath="/Assets/Zerg/Building/BanelingNest.png" Minerai="100" Vespene="50" Ravitaillement="0" Construction_Time="60" Vie="850" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Spawning Pool" ImgPath="/Assets/Zerg/Building/SpawningPool.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="1" Title="Evolution Chamber" ImgPath="/Assets/Zerg/Building/EvolutionChamber.png" Minerai="75" Vespene="0" Ravitaillement="0" Construction_Time="35" Vie="750" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Hatchery" ImgPath="/Assets/Zerg/Building/Hatchery.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="2" Title="Extractor" ImgPath="/Assets/Zerg/Building/Extractor.png" Minerai="25" Vespene="50" Ravitaillement="0" Construction_Time="30" Vie="500" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="" ImgPath="" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="3" Title="Greater Spiret" ImgPath="/Assets/Zerg/Building/GreaterSpire.png" Minerai="100" Vespene="150" Ravitaillement="0" Construction_Time="100" Vie="1000" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Hive" ImgPath="/Assets/Zerg/Building/Hive.png" />
+      <Building Title="Spire" ImgPath="/Assets/Zerg/Building/Spire.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="4" Title="Hatchery" ImgPath="/Assets/Zerg/Building/Hatchery.png" Minerai="300" Vespene="50" Ravitaillement="10" Construction_Time="100" Vie="1500" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="" ImgPath="" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="Spawning Pool" ImgPath="/Assets/Zerg/Building/SpawningPool.png" />
+      <Building Title="Evolution Chamber" ImgPath="/Assets/Zerg/Building/EvolutionChamber.png" />
+      </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="5" Title="Hive" ImgPath="/Assets/Zerg/Building/Hive.png" Minerai="200" Vespene="150" Ravitaillement="0" Construction_Time="100" Vie="2500" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Infestation Pit" ImgPath="/Assets/Zerg/Building/InfestationPit.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="Ultralisk Cavern" ImgPath="/Assets/Zerg/Building/UltraliskCavern.png" />
+      <Building Title="Greater Spiret" ImgPath="/Assets/Zerg/Building/GreaterSpire.png" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="6" Title="Hydralisk Den" ImgPath="/Assets/Zerg/Building/HydraliskDen.png" Minerai="100" Vespene="100" Ravitaillement="0" Construction_Time="40" Vie="850" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Lair" ImgPath="/Assets/Zerg/Building/Lair.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="7" Title="Infestation Pit" ImgPath="/Assets/Zerg/Building/InfestationPit.png" Minerai="100" Vespene="100" Ravitaillement="0" Construction_Time="50" Vie="850" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Lair" ImgPath="/Assets/Zerg/Building/Lair.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="Hive" ImgPath="/Assets/Zerg/Building/Hive.png" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="8" Title="Lair" ImgPath="/Assets/Zerg/Building/Lair.png" Minerai="150" Vespene="100" Ravitaillement="0" Construction_Time="80" Vie="2000" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Spawning Pool" ImgPath="/Assets/Zerg/Building/SpawningPool.png" />
+      <Building Title="Hatchery" ImgPath="/Assets/Zerg/Building/Hatchery.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="Nydus Network" ImgPath="/Assets/Zerg/Building/NydusNetwork.png" />
+      <Building Title="Infestation Pit" ImgPath="/Assets/Zerg/Building/InfestationPit.png" />
+      <Building Title="Hydralisk Den" ImgPath="/Assets/Zerg/Building/HydraliskDen.png" />
+      <Building Title="Spire" ImgPath="/Assets/Zerg/Building/Spire.png" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="9" Title="Nydus Network" ImgPath="/Assets/Zerg/Building/NydusNetwork.png" Minerai="150" Vespene="200" Ravitaillement="0" Construction_Time="50" Vie="850" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Lair" ImgPath="/Assets/Zerg/Building/Lair.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="10" Title="Roach Warren" ImgPath="/Assets/Zerg/Building/RoachWarren.png" Minerai="150" Vespene="0" Ravitaillement="0" Construction_Time="55" Vie="850" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Spawning Pool" ImgPath="/Assets/Zerg/Building/SpawningPool.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="11" Title="Spawning Pool" ImgPath="/Assets/Zerg/Building/SpawningPool.png" Minerai="200" Vespene="0" Ravitaillement="0" Construction_Time="65" Vie="1000" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Hatchery" ImgPath="/Assets/Zerg/Building/Hatchery.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="Spine Crawler" ImgPath="/Assets/Zerg/Building/SpineCrawler.png" />
+      <Building Title="Roach Warren" ImgPath="/Assets/Zerg/Building/RoachWarren.png" />
+      <Building Title="Lair" ImgPath="/Assets/Zerg/Building/Lair.png" />
+      <Building Title="Baneling Nest" ImgPath="/Assets/Zerg/Building/BanelingNest.png" />
+      <Building Title="Spore Crawler" ImgPath="/Assets/Zerg/Building/SporeCrawler.png" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="12" Title="Spine Crawler" ImgPath="/Assets/Zerg/Building/SpineCrawler.png" Minerai="100" Vespene="0" Ravitaillement="0" Construction_Time="50" Vie="300" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Spawning Pool" ImgPath="/Assets/Zerg/Building/SpawningPool.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="13" Title="Spire" ImgPath="/Assets/Zerg/Building/Spire.png" Minerai="200" Vespene="200" Ravitaillement="0" Construction_Time="100" Vie="850" Energie="0" Armure="1" Bouclier="0" >
+    <Require>
+      <Building Title="Lair" ImgPath="/Assets/Zerg/Building/Lair.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="Greater Spiret" ImgPath="/Assets/Zerg/Building/GreaterSpire.png" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="14" Title="Spore Crawler" ImgPath="/Assets/Zerg/Building/SporeCrawler.png" Minerai="75" Vespene="0" Ravitaillement="0" Construction_Time="30" Vie="400" Energie="0" Armure="1" Bouclier="0">
+    <Require>
+      <Building Title="Spawning Pool" ImgPath="/Assets/Zerg/Building/SpawningPool.png" />
+    </Require>
+    <GrantAccessTo>
+      <Building Title="" ImgPath="" />
+    </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+    <Building ID="15" Title="Ultralisk Cavern" ImgPath="/Assets/Zerg/Building/UltraliskCavern.png" Minerai="150" Vespene="200" Ravitaillement="0" Construction_Time="65" Vie="850" Energie="0" Armure="1" Bouclier="0">
+      <Require>
+        <Building Title="Hive" ImgPath="/Assets/Zerg/Building/Hive.png" />
+      </Require>
+      <GrantAccessTo>
+        <Building Title="" ImgPath="" />
+      </GrantAccessTo>
+      <CanProduce>
+        <Unit Title="" ImgPath="" />
+      </CanProduce>
+      <CanResearch>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </CanResearch>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+    </Building>
+  </Zerg>
+</Race>

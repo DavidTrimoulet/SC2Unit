@@ -1,0 +1,1178 @@
+<Race>
+  <Terran>
+    <unit ID="0" Title="SCV" ImgPath="/Assets/Terran/Unit/SCV.png" Minerai="50" Vespene="0" Ravitaillement="1" Construction_Time="17" BuildIn="Centre de commandement" Vie="45" Bouclier="0" Energie="0" Armure="0" >
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="0" Damage="5" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Infantry Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryarmorlevel1.jpg" />
+        <Upgrade Title="Infantry Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryarmorlevel2.jpg" />
+        <Upgrade Title="Infantry Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryarmorlevel3.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Repair" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-repair.jpg" />
+        <Ability Title="Gather" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-gather.jpg" />
+      </Abilities>
+    </unit>
+    <unit ID="1" Title="Marine" ImgPath="/Assets/Terran/Unit/Marine.png" Minerai="50" Vespene="0" Ravitaillement="1" Construction_Time="25" BuildIn="Caserne" Vie="45" Energie="0" Armure="0" Bouclier="0" >
+      <Weapon Title="C-14 Gauss Rifle" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="5" Damage="6" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Infantry Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryarmorlevel1.jpg" />
+        <Upgrade Title="Infantry Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryarmorlevel2.jpg" />
+        <Upgrade Title="Infantry Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryarmorlevel3.jpg" />
+        <Upgrade Title="Infantry Weapon Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryweaponslevel1.jpg" />
+        <Upgrade Title="Infantry Weapon Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryweaponslevel2.jpg" />
+        <Upgrade Title="Infantry Weapon Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryweaponslevel3.jpg" />
+        <Upgrade Title="Stimpack" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-stimpack-color.jpg" />
+        <Upgrade Title="Combat Shield" ImgPath="/Assets/Terran/Upgrade/btn-techupgrade-terran-combatshield-color.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Use StimPack" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-stimpack-color.jpg" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Marauder" ImgPath="/Assets/Terran/Unit/Marauder.png" />
+      <unit Title="Hydralisk" ImgPath="/Assets/Zerg/Unit/Hydralisk.png"/>
+      <unit Title="Immortal" ImgPath="/Assets/Protoss/Unit/Immortal.png"/>
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Baneling"  ImgPath="/Assets/Zerg/Unit/Baneling.png" />
+      <unit Title="Colossus" ImgPath="/Assets/Protoss/Unit/Colossus.png" />
+      <unit Title="Siege Tank" ImgPath="/Assets/Terran/Unit/SiegeTank.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="2" Title="Marauder" ImgPath="/Assets/Terran/Unit/Marauder.png" Minerai="100" Vespene="25" Ravitaillement="2" Construction_Time="300" BuildIn="Caserne" Vie="125" Energie="0" Armure="1" Bouclier="0" >
+      <Weapon Title="Punisher Grenades" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="6" Damage="10" Bonus="10 Bonus Damages Vs Armored" />
+      <Upgrades>
+        <Upgrade Title="Infantry Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryarmorlevel1.jpg" />
+        <Upgrade Title="Infantry Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryarmorlevel2.jpg" />
+        <Upgrade Title="Infantry Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryarmorlevel3.jpg" />
+        <Upgrade Title="Infantry Weapon Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryweaponslevel1.jpg" />
+        <Upgrade Title="Infantry Weapon Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryweaponslevel2.jpg" />
+        <Upgrade Title="Infantry Weapon Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryweaponslevel3.jpg" />
+        <Upgrade Title="Stimpack" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-stimpack-color.jpg" />
+        <Upgrade Title="Concussive Shells" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-punishergrenade-color.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Use StimPack" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-stimpack-color.jpg" />
+        <Ability Title="Concussive Shells" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-punishergrenade-color.jpg" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Thor"  ImgPath="/Assets/Terran/Unit/Thor.png" />
+      <unit Title="Roach"  ImgPath="/Assets/Zerg/Unit/Roach.png" />
+      <unit Title="Stalker"  ImgPath="/Assets/Protoss/Unit/Stalker.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Marine" ImgPath="/Assets/Terran/Unit/Marine.png" />
+      <unit Title="Zergling" ImgPath="/Assets/Zerg/Unit/Zergling.png" />
+      <unit Title="Zealot" ImgPath="/Assets/Protoss/Unit/Zealot.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="3" Title="Reaper" ImgPath="/Assets/Terran/Unit/Reaper.png" Minerai="50" Vespene="50" Ravitaillement="1" Construction_Time="45" BuildIn="Caserne" Vie="60" Bouclier="0" Energie="0" Armure="0" >
+      <Weapon Title="P-45 Gauss Pistol" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="5" Damage="4" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Infantry Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryarmorlevel1.jpg" />
+        <Upgrade Title="Infantry Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryarmorlevel2.jpg" />
+        <Upgrade Title="Infantry Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryarmorlevel3.jpg" />
+        <Upgrade Title="Infantry Weapon Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryweaponslevel1.jpg" />
+        <Upgrade Title="Infantry Weapon Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryweaponslevel2.jpg" />
+        <Upgrade Title="Infantry Weapon Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryweaponslevel3.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Jet Pack" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-jetpack-color.jpg" />
+        <Ability Title="Combat Drugs" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-reapercombatdrugs.jpg" />
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="SCV" ImgPath="/Assets/Terran/Unit/SCV.png" />
+        <unit Title="Drone" ImgPath="/Assets/Zerg/Unit/Drone.png" />
+        <unit Title="Probe" ImgPath="/Assets/Protoss/Unit/Probe.png" />
+      </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="Marauder" ImgPath="/Assets/Terran/Unit/Marauder.png" />
+        <unit Title="Roach" ImgPath="/Assets/Zerg/Unit/Roach.png" />
+        <unit Title="Stalker" ImgPath="/Assets/Protoss/Unit/Stalker.png" />
+      </WeakAgainst>
+    </unit>
+    <unit ID="4" Title="Ghost" ImgPath="/Assets/Terran/Unit/Ghost.png" Minerai="200" Vespene="100" Ravitaillement="2" Construction_Time="40" BuildIn="Caserne" Vie="100" Bouclier="0" Energie="200" Armure="0" >
+      <Weapon Title="C-10 Canister Rifle" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="6" Damage="10" Bonus="10 Bonus Damages Vs Light" />
+      <Upgrades>
+        <Upgrade Title="Infantry Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryarmorlevel1.jpg" />
+        <Upgrade Title="Infantry Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryarmorlevel2.jpg" />
+        <Upgrade Title="Infantry Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryarmorlevel3.jpg" />
+        <Upgrade Title="Infantry Weapon Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryweaponslevel1.jpg" />
+        <Upgrade Title="Infantry Weapon Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryweaponslevel2.jpg" />
+        <Upgrade Title="Infantry Weapon Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infantryweaponslevel3.jpg" />
+        <Upgrade Title="Personnal Cloaking" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-cloak-color.jpg" />
+        <Upgrade Title="Moebius Reactor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-moebiusreactor.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Cloak" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-cloak-color.jpg" />
+        <Ability Title="Sniper Round" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-snipe-color.jpg" />
+        <Ability Title="Tac Nuke Strike" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-nuclearstrike-color.jpg" />
+        <Ability Title="Hold Fire" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-holdfire.jpg" />
+        <Ability Title="Weapons Free" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-weaponsfree.jpg" />
+        <Ability Title="EMP Round" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-emp-color.jpg" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Raven" ImgPath="/Assets/Terran/Unit/Raven.png" />
+      <unit Title="Infestor" ImgPath="/Assets/Zerg/Unit/Infestor.png" />
+      <unit Title="High Templar" ImgPath="/Assets/Protoss/Unit/HighTemplar.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Marauder" ImgPath="/Assets/Terran/Unit/Marauder.png" />
+      <unit Title="Zergling" ImgPath="/Assets/Zerg/Unit/Zergling.png" />
+      <unit Title="Stalker" ImgPath="/Assets/Protoss/Unit/Stalker.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="5" Title="Hellion" ImgPath="/Assets/Terran/Unit/Hellion.png" Minerai="100" Vespene="0" Ravitaillement="2" Construction_Time="300" BuildIn="Usine" Vie="90" Bouclier="0" Energie="0" Armure="0" >
+      <Weapon Title="Infernal FlameThrower" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-vehicleweaponslevel0.jpg" Range="5" Damage="8" Bonus="6 Bonus Damages Vs Light" />
+      <Upgrades>
+        <Upgrade Title="Vehicle Weapons Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel1.jpg" />
+        <Upgrade Title="Vehicle Weapons Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel2.jpg" />
+        <Upgrade Title="Vehicle Weapons Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel3.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel1.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel2.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel3.jpg" />
+        <Upgrade Title="Infernal Pre-Igniter" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infernalpreigniter.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Hellbat Transformation" ImgPath="/Assets/Terran/Upgrade/btn-unit-terran-hellionbattlemode.jpg" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Zergling" ImgPath="/Assets/Zerg/Unit/Zergling.png" />
+      <unit Title="Zealot" ImgPath="/Assets/Protoss/Unit/Zealot.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Marauder" ImgPath="/Assets/Terran/Unit/Marauder.png" />
+      <unit Title="Roach" ImgPath="/Assets/Zerg/Unit/Roach.png" />
+      <unit Title="Stalker" ImgPath="/Assets/Protoss/Unit/Stalker.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="6" Title="Siege Tank" ImgPath="/Assets/Terran/Unit/SiegeTank.png" Minerai="150" Vespene="125" Ravitaillement= "3" Construction_Time="45" BuildIn="Usine" Bouclier="0" Vie="160" Energie="0" Armure="1" >
+      <Weapon Title="90mm Cannons" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-vehicleweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Vehicle Weapons Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel1.jpg" />
+        <Upgrade Title="Vehicle Weapons Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel2.jpg" />
+        <Upgrade Title="Vehicle Weapons Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel3.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel1.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel2.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel3.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Siege Mode" ImgPath="/Assets/Terran/Upgrade/btn-unit-terran-siegetanksiegemode.jpg" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Marine" ImgPath="/Assets/Terran/Unit/Marine.png" />
+      <unit Title="Zergling" ImgPath="/Assets/Zerg/Unit/Zergling.png" />
+      <unit Title="Zealot" ImgPath="/Assets/Protoss/Unit/Zealot.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Banshee" ImgPath="/Assets/Terran/Unit/Marauder.png" />
+      <unit Title="Void Ray" ImgPath="/Assets/Protoss/Unit/VoidRay.png" />
+      <unit Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="7" Title="Thor" ImgPath="/Assets/Terran/Unit/Thor.png" Minerai="300" Vespene="200" Ravitaillement= "6" Construction_Time="60" BuildIn="Usine" Vie="400" Bouclier="0" Energie="0" Armure="1" >
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-vehicleweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Vehicle Weapons Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel1.jpg" />
+        <Upgrade Title="Vehicle Weapons Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel2.jpg" />
+        <Upgrade Title="Vehicle Weapons Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel3.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel1.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel2.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel3.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="High Impact Payload" ImgPath="/Assets/Terran/Upgrade/btn-unit-terran-thorsiegemode.jpg" />
+        <Ability Title="Explosive Payload" ImgPath="/Assets/Terran/Upgrade/btn-unit-terran-thor.jpg" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Marine" ImgPath="/Assets/Terran/Unit/Marine.png" />
+      <unit Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" />
+      <unit Title="Stalker" ImgPath="/Assets/Protoss/Unit/Stalker.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Marauder" ImgPath="/Assets/Terran/Unit/Marauder.png" />
+      <unit Title="Zergling" ImgPath="/Assets/Zerg/Unit/Zergling.png" />
+      <unit Title="Immortal" ImgPath="/Assets/Protoss/Unit/Immortal.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="8" Title="Viking" ImgPath="/Assets/Terran/Unit/VikingFighter.png" Minerai="150" Vespene="75" Ravitaillement="2" Construction_Time="42" BuildIn="Spatioport" Bouclier="0" Vie="125" Energie="0" Armure="0" >
+      <Weapon Title="Lanzer Torpedo" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-shipweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Ship Weapons Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-shipweaponslevel1.jpg" />
+        <Upgrade Title="Ship Weapons Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-shipweaponslevel2.jpg" />
+        <Upgrade Title="Ship Weapons Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-shipweaponslevel3.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel1.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel2.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel3.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Assault Mode" ImgPath="/Assets/Terran/Upgrade/btn-unit-terran-vikingassault.jpg" />
+        <Ability Title="Fighter Mode" ImgPath="/Assets/Terran/Upgrade/btn-unit-terran-vikingfighter.jpg" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Battlecruiser" ImgPath="/Assets/Terran/Unit/Battlecruiser.png" />
+      <unit Title="Corruptor" ImgPath="/Assets/Zerg/Unit/Corruptor.png" />
+      <unit Title="Void Ray" ImgPath="/Assets/Protoss/Unit/VoidRay.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Marine" ImgPath="/Assets/Terran/Unit/Marine.png" />
+      <unit Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" />
+      <unit Title="Stalker" ImgPath="/Assets/Protoss/Unit/Stalker.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="9" Title="Medivac" ImgPath="/Assets/Terran/Unit/Medivac.png" Minerai="100" Vespene="100" Ravitaillement="2" Construction_Time="42" BuildIn="Spatioport" Bouclier="0" Vie="150" Energie="200" Armure="1">
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Vehicle Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel1.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel2.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel3.jpg" />
+        <Upgrade Title="Caduceus Reactor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-caduceusreactor.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Heal" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-heal-color.jpg" />
+        <Ability Title="Ignite Afterburners" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-medivacemergencythrusters.jpg" />
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="" ImgPath="" />
+       </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="" ImgPath="" />
+        </WeakAgainst>
+    </unit>
+    <unit ID="10" Title="Raven" ImgPath="/Assets/Terran/Unit/Raven.png" Minerai="100" Vespene="200" Ravitaillement="2" Construction_Time="60" BuildIn="Spatioport" Bouclier="0" Vie="140" Energie="200" Armure="1">
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Vehicle Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel1.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel2.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel3.jpg" />
+        <Upgrade Title="Corvid Reactor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-corvidreactor.jpg" />
+        <Upgrade Title="Durable Materials" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-durablematerials.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Build Auto-Turret" ImgPath="/Assets/Terran/Upgrade/btn-building-terran-autoturret.jpg" />
+        <Ability Title="Seeker Missile" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-huntermissile-color.jpg" />
+        <Ability Title="Build Point Defense Drone" ImgPath="/Assets/Terran/Upgrade/btn-unit-terran-targetingdrone.jpg" />
+        <Ability Title="Detector" ImgPath="/Assets/Terran/Upgrade/btn-status-detector.jpg" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Banshee" ImgPath="/Assets/Terran/Unit/Banshee.png" />
+      <unit Title="Roach" ImgPath="/Assets/Zerg/Unit/Roach.png" />
+      <unit Title="Dark Templar" ImgPath="/Assets/Protoss/Unit/DarkTemplar.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Ghost" ImgPath="/Assets/Terran/Unit/Ghost.png" />
+      <unit Title="Corruptor" ImgPath="/Assets/Zerg/Unit/Corruptor.png" />
+      <unit Title="Phoenix" ImgPath="/Assets/Protoss/Unit/Phoenix.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="11" Title="Banshee" ImgPath="/Assets/Terran/Unit/Banshee.png" Minerai="150" Vespene="100" Ravitaillement="3" Construction_Time="60" BuildIn="Spatioport" Bouclier="0" Vie="140" Energie="200" Armure="0" >
+      <Weapon Title="Backlash Rockets" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-shipweaponslevel0.jpg" Range="6" Damage="12" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Ship Weapons Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-shipweaponslevel1.jpg" />
+        <Upgrade Title="Ship Weapons Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-shipweaponslevel2.jpg" />
+        <Upgrade Title="Ship Weapons Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-shipweaponslevel3.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel1.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel2.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel3.jpg" />
+        <Upgrade Title="Cloaking Field" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-cloak-color.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Cloak" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-cloak-color.jpg" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Siege Tank" ImgPath="/Assets/Terran/Unit/SiegeTank.png" />
+      <unit Title="Ultralisk" ImgPath="/Assets/Zerg/Unit/Ultralisk.png" />
+      <unit Title="Colossus" ImgPath="/Assets/Protoss/Unit/Colossus.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Viking" ImgPath="/Assets/Terran/Unit/VikingFighter.png" />
+      <unit Title="Hydralisk" ImgPath="/Assets/Zerg/Unit/Hydralisk.png" />
+      <unit Title="Siege Tank" ImgPath="/Assets/Terran/Unit/SiegeTank.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="12" Title="Battlecruiser" ImgPath="/Assets/Terran/Unit/Battlecruiser.png" Minerai="400" Vespene="300" Ravitaillement="6" Construction_Time="90" BuildIn="Spatioport" Bouclier="0" Vie="550" Energie="200" Armure="3" >
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Ship Weapons Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-shipweaponslevel1.jpg" />
+        <Upgrade Title="Ship Weapons Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-shipweaponslevel2.jpg" />
+        <Upgrade Title="Ship Weapons Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-shipweaponslevel3.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel1.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel2.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel3.jpg" />
+        <Upgrade Title="Weapon Refit" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-yamatogun-color.jpg" />
+        <Upgrade Title="Behemoth Reactor" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-behemothreactor.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Yamato Cannon" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-yamatogun-color.jpg" />
+        </Abilities>
+      <StrongAgainst>
+      <unit Title="Thor" ImgPath="/Assets/Terran/Unit/Thor.png" />
+      <unit Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" />
+      <unit Title="Carrier" ImgPath="/Assets/Protoss/Unit/Carrier.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Viking" ImgPath="/Assets/Terran/Unit/VikingFighter.png" />
+      <unit Title="Corruptor" ImgPath="/Assets/Zerg/Unit/Corruptor.png" />
+      <unit Title="Void Ray" ImgPath="/Assets/Protoss/Unit/VoidRay.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="13" Title="Hellbat" ImgPath="/Assets/Terran/Unit/Hellbat.png" Minerai="100" Vespene="0" Ravitaillement="2" Construction_Time="30" BuildIn="Factory" Bouclier="0" Vie="135" Energie="0" Armure="0" >
+      <Weapon Title="Napalm Spray" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="2" Damage="18" Bonus="12 Bonus Damages Vs Light" />
+      <Upgrades>
+        <Upgrade Title="Vehicle Weapons Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel1.jpg" />
+        <Upgrade Title="Vehicle Weapons Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel2.jpg" />
+        <Upgrade Title="Vehicle Weapons Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel3.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel1.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel2.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel3.jpg" />
+        <Upgrade Title="Infernal Pre-Igniter" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-infernalpreigniter.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Hellion Mode" ImgPath="/Assets/Terran/Upgrade/btn-unit-terran-hellion.jpg" />
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="Zergling" ImgPath="/Assets/Zerg/Unit/Zergling.png" />
+        <unit Title="Zealot" ImgPath="/Assets/Protoss/Unit/Zealot.png" />
+        </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="Baneling" ImgPath="/Assets/Zerg/Unit/Baneling.png" />
+        <unit Title="Stalker" ImgPath="/Assets/Protoss/Unit/Stalker.png" />
+        <unit Title="Marauder" ImgPath="/Assets/Terran/Unit/Marauder.png" />
+      </WeakAgainst>
+    </unit>
+    <unit ID="14" Title="Widow Mine" ImgPath="/Assets/Terran/Unit/WidowMine.png" Minerai="75" Vespene="25" Ravitaillement="2" Construction_Time="40" BuildIn="Factory" Bouclier="0" Vie="90" Energie="0" Armure="0" >
+      <Weapon Title="Missiles" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-unstablepayload.jpg" Range="6" Damage="125" Bonus="35 Bonus Damages VS Shielded" />
+      <Upgrades>
+        <Upgrade Title="Vehicle Weapons Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel1.jpg" />
+        <Upgrade Title="Vehicle Weapons Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel2.jpg" />
+        <Upgrade Title="Vehicle Weapons Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleweaponslevel3.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 1" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel1.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 2" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel2.jpg" />
+        <Upgrade Title="Vehicle Armor Lvl 3" ImgPath="/Assets/Terran/Upgrade/btn-upgrade-terran-vehicleplatinglevel3.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Activate Mine" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-activatemine.jpg" />
+        <Ability Title="Sentinel Missiles" ImgPath="/Assets/Terran/Upgrade/btn-ability-terran-unstablepayload.jpg" />
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="Thor" ImgPath="/Assets/Terran/Unit/Thor.png" />
+        <unit Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" />
+        <unit Title="Carrier" ImgPath="/Assets/Protoss/Unit/Carrier.png" />
+      </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="Viking" ImgPath="/Assets/Terran/Unit/VikingFighter.png" />
+        <unit Title="Corruptor" ImgPath="/Assets/Zerg/Unit/Corruptor.png" />
+        <unit Title="Void Ray" ImgPath="/Assets/Protoss/Unit/VoidRay.png" />
+      </WeakAgainst>
+    </unit>
+  </Terran>
+  <Protoss>
+    <unit ID="0" Title="Probe" ImgPath="/Assets/Protoss/Unit/Probe.png" Minerai= "50" Vespene= "0" Ravitaillement="1" Construction_Time="17" BuildIn="Nexus" Vie="20" Bouclier="20" Energie="0" Armure="0" >
+      <Weapon Title="Particle Beam" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel0.jpg" Range="0" Damage="5" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Ground Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel1.jpg" />
+        <Upgrade Title="Ground Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel2.jpg" />
+        <Upgrade Title="Ground Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel3.jpg" />
+        <Upgrade Title="Shields Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel1.jpg" />
+        <Upgrade Title="Shields Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel2.jpg" />
+        <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Gather" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-gather.jpg" />
+      </Abilities>
+    </unit>
+    <unit ID="1" Title="Zealot" ImgPath="/Assets/Protoss/Unit/Zealot.png" Minerai="100" Vespene="0" Ravitaillement="2" Construction_Time="38" BuildIn="Portail" Vie="100" Bouclier="50" Energie="0" Armure="1">
+      <Weapon Title="Psi Blades" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel0.jpg" Range="0" Damage="8" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Ground Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel1.jpg" />
+        <Upgrade Title="Ground Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel2.jpg" />
+        <Upgrade Title="Ground Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel3.jpg" />
+        <Upgrade Title="Shields Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel1.jpg" />
+        <Upgrade Title="Shields Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel2.jpg" />
+        <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Charge" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-charge-color.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Charge" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-charge-color.jpg" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Marauder" ImgPath="/Assets/Terran/Unit/Marauder.png" />
+      <unit Title="Zergling" ImgPath="/Assets/Zerg/Unit/Zergling.png" />
+      <unit Title="Immortal" ImgPath="/Assets/Protoss/Unit/Immortal.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Hellion" ImgPath="/Assets/Terran/Unit/Hellion.png" />
+      <unit Title="Roach" ImgPath="/Assets/Zerg/Unit/Roach.png" />
+      <unit Title="Colossus" ImgPath="/Assets/Protoss/Unit/Colossus.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="2" Title="Stalker" ImgPath="/Assets/Protoss/Unit/Stalker.png" Minerai="125" Vespene="50" Ravitaillement="2" Construction_Time="42" BuildIn="Portail" Vie="80" Bouclier="80" Energie="0" Armure="1">
+      <Weapon Title="Particle Disrupter" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel0.jpg" Range="6" Damage="10" Bonus="4 Bonus Damages Vs Armored" />
+      <Upgrades>
+        <Upgrade Title="Ground Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel1.jpg" />
+        <Upgrade Title="Ground Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel2.jpg" />
+        <Upgrade Title="Ground Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel3.jpg" />
+        <Upgrade Title="Shields Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel1.jpg" />
+        <Upgrade Title="Shields Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel2.jpg" />
+        <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Blink" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-blink-color.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Blink" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-blink-color.jpg" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Reaper" ImgPath="/Assets/Terran/Unit/Reaper.png" />
+      <unit Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" />
+      <unit Title="Void Ray" ImgPath="/Assets/Protoss/Unit/VoidRay.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Marauder" ImgPath="/Assets/Terran/Unit/Marauder.png" />
+      <unit Title="Zergling" ImgPath="/Assets/Zerg/Unit/Zergling.png" />
+      <unit Title="Immortal" ImgPath="/Assets/Protoss/Unit/Immortal.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="3" Title="High Templar" ImgPath="/Assets/Protoss/Unit/HighTemplar.png" Minerai="50" Vespene="150" Ravitaillement="2" Construction_Time="55" BuildIn="Portail" Vie="40" Bouclier="40" Energie="200" Armure="0" >
+      <Weapon Title="" ImgPath="" Range="0" Damage="0" Bonus="0" />
+      <Upgrades>
+        <Upgrade Title="Ground Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel1.jpg" />
+        <Upgrade Title="Ground Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel2.jpg" />
+        <Upgrade Title="Ground Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel3.jpg" />
+        <Upgrade Title="Shields Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel1.jpg" />
+        <Upgrade Title="Shields Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel2.jpg" />
+        <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Psionic Storm" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-psistorm-color.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Archon Warp" ImgPath="/Assets/Protoss/Upgrade/btn-unit-protoss-archon.jpg" />
+        <Ability Title="Psionic Storm" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-psistorm-color.jpg" />
+        <Ability Title="Feedback" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-feedback-color.jpg" />
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="Marine" ImgPath="/Assets/Terran/Unit/Marine.png" />
+        <unit Title="Hydralisk" ImgPath="/Assets/Zerg/Unit/Hydralisk.png" />
+        <unit Title="Sentry" ImgPath="/Assets/Protoss/Unit/Sentry.png" />
+      </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="Ghost" ImgPath="/Assets/Terran/Unit/Ghost.png" />
+        <unit Title="Colossus" ImgPath="/Assets/Protoss/Unit/Colossus.png" />
+        <unit Title="Roach" ImgPath="/Assets/Zerg/Unit/Roach.png" />
+      </WeakAgainst>
+    </unit>
+    <unit ID="4" Title="Dark Templar" ImgPath="/Assets/Protoss/Unit/DarKTemplar.png" Minerai="125" Vespene="125" Ravitaillement="2" Construction_Time="55" BuildIn="Portail" Vie="40" Bouclier="80" Energie="0" Armure="1">
+      <Weapon Title="Warp Blade" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel0.jpg" Range="0" Damage="45" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Ground Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel1.jpg" />
+        <Upgrade Title="Ground Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel2.jpg" />
+        <Upgrade Title="Ground Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel3.jpg" />
+        <Upgrade Title="Shields Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel1.jpg" />
+        <Upgrade Title="Shields Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel2.jpg" />
+        <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Permanently Cloaked" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-permanentlycloaked-darktemplar-color.jpg" />
+        <Ability Title="Archon Warp" ImgPath="/Assets/Protoss/Upgrade/btn-unit-protoss-archon.jpg" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="SCV" ImgPath="/Assets/Terran/Unit/SCV.png" />
+      <unit Title="Drone" ImgPath="/Assets/Zerg/Unit/Drone.png" />
+      <unit Title="Probe" ImgPath="/Assets/Protoss/Unit/Probe.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Raven" ImgPath="/Assets/Terran/Unit/Raven.png" />
+      <unit Title="Overseer" ImgPath="/Assets/Zerg/Unit/Overseer.png" />
+      <unit Title="Observer" ImgPath="/Assets/Protoss/Unit/Observer.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="5" Title="Sentry" ImgPath="/Assets/Protoss/Unit/Sentry.png" Minerai="50" Vespene="100" Ravitaillement="2" Construction_Time="37" BuildIn="Portail" Vie="40" Bouclier="40" Energie="200" Armure="1">
+      <Weapon Title="Disruption Beam" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel0.jpg" Range="5" Damage="6" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Ground Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel1.jpg" />
+        <Upgrade Title="Ground Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel2.jpg" />
+        <Upgrade Title="Ground Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel3.jpg" />
+        <Upgrade Title="Shields Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel1.jpg" />
+        <Upgrade Title="Shields Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel2.jpg" />
+        <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Force Field" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-forcefield-color.jpg" />
+        <Ability Title="Hallucination" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-hallucination-color.jpg" />
+        <Ability Title="Guardian Shield" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-shieldbattery-color.jpg" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Zergling" ImgPath="/Assets/Zerg/Unit/Zergling.png" />
+      <unit Title="Zealot" ImgPath="/Assets/Protoss/Unit/Zealot.png" />
+      </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Reaper" ImgPath="/Assets/Terran/Unit/Reaper.png" />
+      <unit Title="Hydralisk" ImgPath="/Assets/Zerg/Unit/Hydralisk.png" />
+      <unit Title="Stalker" ImgPath="/Assets/Protoss/Unit/Stalker.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="6" Title="Observer" ImgPath="/Assets/Protoss/Unit/Observer.png" Minerai="25" Vespene="75" Ravitaillement="1" Construction_Time="300" BuildIn="Complexe Robotique" Vie="40" Bouclier="20" Energie="0" Armure="0" >
+      <Weapon Title="" ImgPath="" Range="0" Damage="0" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Shields Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel1.jpg" />
+        <Upgrade Title="Shields Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel2.jpg" />
+        <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+        <Upgrade Title="Air Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel1.jpg" />
+        <Upgrade Title="Air Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel2.jpg" />
+        <Upgrade Title="Air Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel3.jpg" />
+        <Upgrade Title="Gravitic Booster" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-graviticbooster.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Permanently Cloaked" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-permanentlycloaked-observer-color.jpg" />
+        <Ability Title="Detector" ImgPath="/Assets/Protoss/Upgrade/btn-status-detector.jpg" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Banshee" ImgPath="/Assets/Terran/Unit/Banshee.png" />
+      <unit Title="Roach" ImgPath="/Assets/Zerg/Unit/Roach.png" />
+      <unit Title="Dark Templar" ImgPath="/Assets/Protoss/Unit/DarkTemplar.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+    </WeakAgainst>
+    </unit>
+    <unit ID="7" Title="Immortal" ImgPath="/Assets/Protoss/Unit/Immortal.png" Minerai="250" Vespene="100" Ravitaillement="4" Construction_Time="55" BuildIn="Complexe Robotique" Vie="200" Bouclier="100" Energie="0" Armure="1">
+      <Weapon Title="Phase Disrupter" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel0.jpg" Range="6" Damage="20" Bonus="30 Bonus Damages Vs Armored " />
+      <Upgrades>
+        <Upgrade Title="Ground Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel1.jpg" />
+        <Upgrade Title="Ground Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel2.jpg" />
+        <Upgrade Title="Ground Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel3.jpg" />
+        <Upgrade Title="Shields Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel1.jpg" />
+        <Upgrade Title="Shields Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel2.jpg" />
+        <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Hardened Shield" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-hardenedshields-color.jpg" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Siege Tank" ImgPath="/Assets/Terran/Unit/SiegeTank.png" />
+      <unit Title="Roach" ImgPath="/Assets/Zerg/Unit/Roach.png" />
+      <unit Title="Stalker" ImgPath="/Assets/Protoss/Unit/Stalker.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Marine" ImgPath="/Assets/Terran/Unit/Marine.png" />
+      <unit Title="Zergling" ImgPath="/Assets/Zerg/Unit/Zergling.png" />
+      <unit Title="Zealot" ImgPath="/Assets/Protoss/Unit/Zealot.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="8" Title="Warp Prism" ImgPath="/Assets/Protoss/Unit/WarpPrism.png" Minerai="200" Vespene="0" Ravitaillement="2" Construction_Time="50" BuildIn="Complexe Robotique" Vie="100" Bouclier="100" Energie="0" Armure="0" >
+      <Weapon Title="" ImgPath="" Range="0" Damage="0" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Shields Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel1.jpg" />
+        <Upgrade Title="Shields Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel2.jpg" />
+        <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+        <Upgrade Title="Air Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel1.jpg" />
+        <Upgrade Title="Air Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel2.jpg" />
+        <Upgrade Title="Air Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel3.jpg" />
+        <Upgrade Title="Gravitic Drive" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-graviticdrive.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Phasing Mode" ImgPath="/Assets/Protoss/Upgrade/btn-unit-protoss-warpprismstationary.jpg" />
+      </Abilities>
+      <StrongAgainst>
+    </StrongAgainst>
+    <WeakAgainst>
+    </WeakAgainst>
+    </unit>
+    <unit ID="9" Title="Colossus" ImgPath="/Assets/Protoss/Unit/Colossus.png" Minerai="300" Vespene="200" Ravitaillement="6" Construction_Time="75" BuildIn="Complexe Robotique" Vie="200" Bouclier="150" Energie="0" Armure="1">
+      <Weapon Title="Thermal Lance" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="6" Damage="15" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Ground Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel1.jpg" />
+        <Upgrade Title="Ground Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel2.jpg" />
+        <Upgrade Title="Ground Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel3.jpg" />
+        <Upgrade Title="Shields Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel1.jpg" />
+        <Upgrade Title="Shields Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel2.jpg" />
+        <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Extended Thermal Lance" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Cliff Walk" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-cliffwalk-color.jpg" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Marine" ImgPath="/Assets/Terran/Unit/Marine.png" />
+      <unit Title="Zergling" ImgPath="/Assets/Zerg/Unit/Zergling.png" />
+      <unit Title="Zealot" ImgPath="/Assets/Protoss/Unit/Zealot.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Viking" ImgPath="/Assets/Terran/Unit/VikingFighter.png" />
+      <unit Title="Corruptor" ImgPath="/Assets/Zerg/Unit/Corruptor.png" />
+      <unit Title="Immortal" ImgPath="/Assets/Protoss/Unit/Immortal.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="10" Title="Phoenix" ImgPath="/Assets/Protoss/Unit/Phoenix.png" Minerai="150" Vespene="100" Ravitaillement="2" Construction_Time="35" BuildIn="Porte Spatiale" Vie="120" Bouclier= "60" Energie="200" Armure="0" >
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel0.jpg.jpg" Range="5" Damage="5" Bonus="5 Bonus Damages Vs Light" />
+      <Upgrades>
+        <Upgrade Title="Shields Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel1.jpg" />
+        <Upgrade Title="Shields Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel2.jpg" />
+        <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+        <Upgrade Title="Air Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel1.jpg" />
+        <Upgrade Title="Air Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel2.jpg" />
+        <Upgrade Title="Air Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel3.jpg" />
+        <Upgrade Title="Air Weapons Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel1.jpg" />
+        <Upgrade Title="Air Weapons Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel2.jpg" />
+        <Upgrade Title="Air Weapons Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel3.jpg" />
+        <Upgrade Title="Anion Pulse Crystals" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-phoenixrange.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Graviton Beam" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-gravitonbeam-color.jpg" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Banshee" ImgPath="/Assets/Terran/Unit/Banshee.png" />
+      <unit Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" />
+      <unit Title="Void Ray" ImgPath="/Assets/Protoss/Unit/VoidRay.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Battlecruiser" ImgPath="/Assets/Terran/Unit/Battlecruiser.png" />
+      <unit Title="Corruptor" ImgPath="/Assets/Zerg/Unit/Corruptor.png" />
+      <unit Title="Carrier" ImgPath="/Assets/Protoss/Unit/Carrier.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="11" Title="Void Ray" ImgPath="/Assets/Protoss/Unit/VoidRay.png" Minerai="250" Vespene="150" Ravitaillement="4" Construction_Time="60" BuildIn="Porte Spatiale" Vie="150" Bouclier="100" Energie="0" Armure="0" >
+      <Weapon Title="" ImgPath="" Range="0" Damage="0" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Shields Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel1.jpg" />
+        <Upgrade Title="Shields Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel2.jpg" />
+        <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+        <Upgrade Title="Air Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel1.jpg" />
+        <Upgrade Title="Air Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel2.jpg" />
+        <Upgrade Title="Air Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel3.jpg" />
+        <Upgrade Title="Air Weapons Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel1.jpg" />
+        <Upgrade Title="Air Weapons Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel2.jpg" />
+        <Upgrade Title="Air Weapons Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel3.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Prismatic Alignment" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-voidrayprismaticalignment.jpg" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Battlecruiser" ImgPath="/Assets/Terran/Unit/Battlecruiser.png" />
+      <unit Title="Corruptor" ImgPath="/Assets/Zerg/Unit/Corruptor.png" />
+      <unit Title="Carrier" ImgPath="/Assets/Protoss/Unit/Carrier.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Viking" ImgPath="/Assets/Terran/Unit/VikingFighter.png" />
+      <unit Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" />
+      <unit Title="Phoenix" ImgPath="/Assets/Protoss/Unit/Phoenix.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="12" Title="Archon" ImgPath="/Assets/Protoss/Unit/Archon.png" Minerai="0" Vespene="0" Ravitaillement="4" Construction_Time="12" BuildIn="Haut-Templier * 2" Vie="45" Bouclier="20" Energie="0" Armure="0" >
+      <Weapon Title="Psionic Shocwave" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="3" Damage="25" Bonus="10 Bonus Damages Vs Biological" />
+      <Upgrades>
+        <Upgrade Title="Ground Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel1.jpg" />
+        <Upgrade Title="Ground Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel2.jpg" />
+        <Upgrade Title="Ground Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundarmorlevel3.jpg" />
+        <Upgrade Title="Shields Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel1.jpg" />
+        <Upgrade Title="Shields Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel2.jpg" />
+        <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+        <Upgrade Title="Ground Weapons Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-groundweaponslevel1.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Thor" ImgPath="/Assets/Terran/Unit/Thor.png" />
+      <unit Title="Ultralisk" ImgPath="/Assets/Zerg/Unit/Ultralisk.png" />
+      <unit Title="Immortal" ImgPath="/Assets/Protoss/Unit/Immortal.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="13" Title="Carrier" ImgPath="/Assets/Protoss/Unit/Carrier.png" Minerai="350" Vespene="250" Ravitaillement="6" Construction_Time="120" BuildIn="Porte Spatiale" Vie="300" Bouclier="150" Energie="0" Armure="2">
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Shields Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel1.jpg" />
+        <Upgrade Title="Shields Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel2.jpg" />
+        <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+        <Upgrade Title="Air Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel1.jpg" />
+        <Upgrade Title="Air Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel2.jpg" />
+        <Upgrade Title="Air Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel3.jpg" />
+        <Upgrade Title="Air Weapons Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel1.jpg" />
+        <Upgrade Title="Air Weapons Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel2.jpg" />
+        <Upgrade Title="Air Weapons Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel3.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Build Interceptor" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-Interceptor-color.jpg" />
+        <Ability Title="Graviton Catapult" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-GravitonCatapult-color.png" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Thor" ImgPath="/Assets/Terran/Unit/Thor.png" />
+      <unit Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" />
+      <unit Title="Phoenix" ImgPath="/Assets/Protoss/Unit/Phoenix.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Viking" ImgPath="/Assets/Terran/Unit/VikingFighter.png" />
+      <unit Title="Corruptor" ImgPath="/Assets/Zerg/Unit/Corruptor.png" />
+      <unit Title="Void Ray" ImgPath="/Assets/Protoss/Unit/VoidRay.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="14" Title="MotherShip" ImgPath="/Assets/Protoss/Unit/MotherShip.png" Minerai="300" Vespene="300" Ravitaillement="6" Construction_Time="100" BuildIn="Noyau de vaisseau mere" Vie="350" Bouclier="350" Energie="200" Armure="2">
+      <Weapon Title="Purifier Beam" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="7" Damage="6" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Shields Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel1.jpg" />
+        <Upgrade Title="Shields Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel2.jpg" />
+        <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+        <Upgrade Title="Air Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel1.jpg" />
+        <Upgrade Title="Air Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel2.jpg" />
+        <Upgrade Title="Air Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel3.jpg" />
+        <Upgrade Title="Air Weapons Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel1.jpg" />
+        <Upgrade Title="Air Weapons Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel2.jpg" />
+        <Upgrade Title="Air Weapons Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel3.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Time Warp" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-timewarp.jpg" />
+        <Ability Title="Mass Recall" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-massrecall.jpg" />
+        <Ability Title="Cloaking Field" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-cloakfield-color.jpg" />
+      </Abilities>
+      <StrongAgainst>
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Viking" ImgPath="/Assets/Terran/Unit/VikingFighter.png" />
+      <unit Title="Corruptor" ImgPath="/Assets/Zerg/Unit/Corruptor.png" />
+      <unit Title="Void Ray" ImgPath="/Assets/Protoss/Unit/VoidRay.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="15" Title="MotherShip Core" ImgPath="/Assets/Protoss/Unit/MotherShipCore.png" Minerai="300" Vespene="300" Ravitaillement="6" Construction_Time="100" BuildIn="Noyau de vaisseau mere" Vie="350" Bouclier="350" Energie="200" Armure="2">
+      <Weapon Title="Repulsor Cannon" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-purify.jpg" Range="5" Damage="8" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Shields Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel1.jpg" />
+        <Upgrade Title="Shields Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel2.jpg" />
+        <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+        <Upgrade Title="Air Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel1.jpg" />
+        <Upgrade Title="Air Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel2.jpg" />
+        <Upgrade Title="Air Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel3.jpg" />
+        <Upgrade Title="Air Weapons Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel1.jpg" />
+        <Upgrade Title="Air Weapons Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel2.jpg" />
+        <Upgrade Title="Air Weapons Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel3.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Time Warp" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-timewarp.jpg" />
+        <Ability Title="Mass Recall" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-massrecall.jpg" />
+        <Ability Title="Photon Overcharge" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-purify.jpg" />
+        <Ability Title="MotherShip Transformation" ImgPath="/Assets/Protoss/Upgrade/btn-unit-protoss-mothership.jpg" />
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="Widow Mine" ImgPath="/Assets/Terran/Unit/WidowMine.png" />
+        <unit Title="Zergling" ImgPath="/Assets/Zerg/Unit/Zergling.png" />
+        <unit Title="Zealot" ImgPath="/Assets/Protoss/Unit/Zealot.png" />
+      </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="Viking" ImgPath="/Assets/Terran/Unit/VikingFighter.png" />
+        <unit Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" />
+        <unit Title="Phoenix" ImgPath="/Assets/Protoss/Unit/Phoenix.png" />
+      </WeakAgainst>
+    </unit>
+    <unit ID="16" Title="Oracle" ImgPath="/Assets/Protoss/Unit/Oracle.png" Minerai="300" Vespene="300" Ravitaillement="6" Construction_Time="100" BuildIn="Noyau de vaisseau mere" Vie="350" Bouclier="350" Energie="200" Armure="2">
+      <Weapon Title="Pulsar Beam" ImgPath="/Assets/Terran/Weapon/btn-upgrade-protoss-airweaponslevel0.jpg" Range="4" Damage="15" Bonus="10 Bonus Damages Vs Light" />
+      <Upgrades>
+        <Upgrade Title="Shields Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel1.jpg" />
+        <Upgrade Title="Shields Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel2.jpg" />
+        <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+        <Upgrade Title="Air Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel1.jpg" />
+        <Upgrade Title="Air Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel2.jpg" />
+        <Upgrade Title="Air Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel3.jpg" />
+        <Upgrade Title="Air Weapons Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel1.jpg" />
+        <Upgrade Title="Air Weapons Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel2.jpg" />
+        <Upgrade Title="Air Weapons Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel3.jpg" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="Revelation" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-preordain.jpg" />
+        <Ability Title="Envision" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-envision.jpg" />
+        <Ability Title="Activate Pulsar Beam" ImgPath="/Assets/Protoss/Upgrade/btn-ability-protoss-oraclepulsarcannonon.jpg" />
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="SCV" ImgPath="/Assets/Terran/Unit/SCV.png" />
+        <unit Title="Drone" ImgPath="/Assets/Zerg/Unit/Drone.png" />
+        <unit Title="Probe" ImgPath="/Assets/Protoss/Unit/Probe.png" />
+      </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="Viking" ImgPath="/Assets/Terran/Unit/VikingFighter.png" />
+        <unit Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" />
+        <unit Title="Phoenix" ImgPath="/Assets/Protoss/Unit/Phoenix.png" />
+      </WeakAgainst>
+    </unit>
+    <unit ID="17" Title="Tempest" ImgPath="/Assets/Protoss/Unit/Tempest.png" Minerai="300" Vespene="300" Ravitaillement="6" Construction_Time="100" BuildIn="Noyau de vaisseau mere" Vie="350" Bouclier="350" Energie="200" Armure="2">
+      <Weapon Title="" ImgPath="" Range="0" Damage="0" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="Shields Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel1.jpg" />
+        <Upgrade Title="Shields Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel2.jpg" />
+        <Upgrade Title="Shields Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-shieldslevel3.jpg" />
+        <Upgrade Title="Air Armor Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel1.jpg" />
+        <Upgrade Title="Air Armor Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel2.jpg" />
+        <Upgrade Title="Air Armor Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airarmorlevel3.jpg" />
+        <Upgrade Title="Air Weapons Lvl 1" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel1.jpg" />
+        <Upgrade Title="Air Weapons Lvl 2" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel2.jpg" />
+        <Upgrade Title="Air Weapons Lvl 3" ImgPath="/Assets/Protoss/Upgrade/btn-upgrade-protoss-airweaponslevel3.jpg" />
+      </Upgrades>
+      <Abilities>
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="Swarm Host" ImgPath="/Assets/Zerg/Unit/SwarmHost.png" />
+        <unit Title="Siege Tank" ImgPath="/Assets/Terran/Unit/SiegeTank.png" />
+        <unit Title="Colossus" ImgPath="/Assets/Protoss/Unit/Colossus.png" />
+      </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="Viking" ImgPath="/Assets/Terran/Unit/VikingFighter.png" />
+        <unit Title="Corruptor" ImgPath="/Assets/Zerg/Unit/Corruptor.png" />
+        <unit Title="Void Ray" ImgPath="/Assets/Protoss/Unit/VoidRay.png" />
+      </WeakAgainst>
+    </unit>
+  </Protoss>
+  <Zerg>
+    <unit ID="0" Title="Larva" ImgPath="/Assets/Zerg/Unit/Larva.png" Minerai="0" Vespene="0" Ravitaillement="0" Construction_Time="0" BuildIn="Couveuse" Vie="25" Energie="0" Armure="10" Bouclier="0" >
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+    </unit>
+    <unit ID="1" Title="Drone" ImgPath="/Assets/Zerg/Unit/Drone.png" Minerai="50" Vespene="0" Ravitaillement="1" Construction_Time="17" BuildIn="Larve" Vie="40" Energie="0" Armure="0" Bouclier="0" >
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+    </unit>
+    <unit ID="2" Title="Zergling" ImgPath="/Assets/Zerg/Unit/Zergling.png" Minerai="50" Vespene="0" Ravitaillement="1" Construction_Time="24" BuildIn="Larve" Vie= "35" Energie="0" Armure="0" Bouclier="0" >
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="Marauder" ImgPath="/Assets/Terran/Unit/Marauder.png" />
+        <unit Title="Hydralisk" ImgPath="/Assets/Zerg/Unit/Hydralisk.png" />
+        <unit Title="Stalker" ImgPath="/Assets/Protoss/Unit/Stalker.png" />
+      </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="Baneling" ImgPath="/Assets/Zerg/Unit/Baneling.png" />
+        <unit Title="Colossus" ImgPath="/Assets/Protoss/Unit/Colossus.png" />
+        <unit Title="Hellion" ImgPath="/Assets/Terran/Unit/Hellion.png" />
+      </WeakAgainst>
+    </unit>
+    <unit ID="3" Title="Baneling" ImgPath="/Assets/Zerg/Unit/Baneling.png" Minerai="25" Vespene="25" Ravitaillement="1" Construction_Time="20" BuildIn="Zergling" Vie="300" Energie="0" Armure="0" Bouclier="0" >
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="Marine" ImgPath="/Assets/Terran/Unit/Marine.png" />
+        <unit Title="Zergling" ImgPath="/Assets/Zerg/Unit/Zergling.png" />
+        <unit Title="Zealot" ImgPath="/Assets/Protoss/Unit/Zealot.png" />
+      </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="Marauder" ImgPath="/Assets/Terran/Unit/Marauder.png" />
+        <unit Title="Roach" ImgPath="/Assets/Zerg/Unit/Roach.png" />
+        <unit Title="Stalker" ImgPath="/Assets/Protoss/Unit/Stalker.png" />
+      </WeakAgainst>
+    </unit>
+    <unit ID="4" Title="Roach" ImgPath="/Assets/Zerg/Unit/Roach.png" Minerai="75" Vespene="25" Ravitaillement="2" Construction_Time="27" BuildIn="Larve" Vie="145" Energie="0" Armure="1" Bouclier="0" >
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="Hellion" ImgPath="/Assets/Terran/Unit/Hellion.png" />
+        <unit Title="Zergling" ImgPath="/Assets/Zerg/Unit/Zergling.png" />
+        <unit Title="Zealot" ImgPath="/Assets/Protoss/Unit/Zealot.png" />
+      </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="Marauder" ImgPath="/Assets/Terran/Unit/Marauder.png" />
+        <unit Title="Ultralisk" ImgPath="/Assets/Zerg/Unit/Ultralisk.png" />
+        <unit Title="Immortal" ImgPath="/Assets/Protoss/Unit/Immortal.png" />
+      </WeakAgainst>
+    </unit>
+    <unit ID="5" Title="Hydralisk" ImgPath="/Assets/Zerg/Unit/Hydralisk.png" Minerai="100" Vespene="50" Ravitaillement="2" Construction_Time="33" BuildIn="Larve" Vie="80" Energie="0" Armure="0" Bouclier="0">
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="Banshee" ImgPath="/Assets/Terran/Unit/Banshee.png" />
+        <unit Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" />
+        <unit Title="Void Ray" ImgPath="/Assets/Protoss/Unit/VoidRay.png" />
+      </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="Siege Tank" ImgPath="/Assets/Terran/Unit/SiegeTank.png" />
+        <unit Title="Zergling" ImgPath="/Assets/Zerg/Unit/Zergling.png" />
+        <unit Title="Colossus" ImgPath="/Assets/Protoss/Unit/Colossus.png" />
+      </WeakAgainst>
+    </unit>
+    <unit ID="6" Title="Overlord" ImgPath="/Assets/Zerg/Unit/Overlord.png" Minerai="100" Vespene="0" Ravitaillement="0" Construction_Time="25" BuildIn="Larve" Vie="200" Energie="0" Armure="0" Bouclier="0" >
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+    </unit>
+    <unit ID="7" Title="Queen" ImgPath="/Assets/Zerg/Unit/Queen.png" Minerai="150" Vespene="0" Ravitaillement="2" Construction_Time="50" BuildIn="Larve" Vie="175" Energie="200" Armure="1" Bouclier="0">
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="Hellion" ImgPath="/Assets/Terran/Unit/Hellion.png" />
+        <unit Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" />
+        <unit Title="Void Ray" ImgPath="/Assets/Protoss/Unit/VoidRay.png" />
+      </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="Marine" ImgPath="/Assets/Terran/Unit/Marine.png" />
+        <unit Title="Zergling" ImgPath="/Assets/Zerg/Unit/Zergling.png" />
+        <unit Title="Zealot" ImgPath="/Assets/Protoss/Unit/Zealot.png" />
+      </WeakAgainst>
+    </unit>
+    <unit ID="8" Title="Overseer" ImgPath="/Assets/Zerg/Unit/Overseer.png" Minerai="50" Vespene="50" Ravitaillement="0" Construction_Time="17" BuildIn="Dominant" Vie="200" Energie="200" Armure="1" Bouclier="0">
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="Banshee" ImgPath="/Assets/Terran/Unit/Banshee.png" />
+        <unit Title="Roach" ImgPath="/Assets/Zerg/Unit/Roach.png" />
+        <unit Title="Dark Templar" ImgPath="/Assets/Protoss/Unit/DarkTemplar.png" />
+      </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="Viking" ImgPath="/Assets/Terran/Unit/VikingFighter.png" />
+        <unit Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" />
+        <unit Title="Stalker" ImgPath="/Assets/Protoss/Unit/Stalker.png" />
+      </WeakAgainst>
+    </unit>
+    <unit ID="9" Title="Infestor" ImgPath="/Assets/Zerg/Unit/Infestor.png" Minerai="100" Vespene="150" Ravitaillement="2" Construction_Time="50" BuildIn="Larve" Vie="90" Energie="200" Armure="0" Bouclier="0" >
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="Marine" ImgPath="/Assets/Terran/Unit/Marine.png" />
+        <unit Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" />
+        <unit Title="Immortal" ImgPath="/Assets/Protoss/Unit/Immortal.png" />
+      </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="Ghost" ImgPath="/Assets/Terran/Unit/Ghost.png" />
+        <unit Title="Ultralisk" ImgPath="/Assets/Zerg/Unit/Ultralisk.png" />
+        <unit Title="High Templar" ImgPath="/Assets/Protoss/Unit/HighTemplar.png" />
+      </WeakAgainst>
+    </unit>
+    <unit ID="10" Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" Minerai="100" Vespene="100" Ravitaillement="2" Construction_Time="33" BuildIn="Larve" Vie="120" Energie="0" Armure="0" Bouclier="0" >
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <StrongAgainst>
+      <unit Title="Viking" ImgPath="/Assets/Terran/Unit/VikingFighter.png" />
+      <unit Title="Brood Lord" ImgPath="/Assets/Zerg/Unit/BroodLord.png" />
+      <unit Title="Void Ray" ImgPath="/Assets/Protoss/Unit/VoidRay.png" />
+    </StrongAgainst>
+    <WeakAgainst>
+      <unit Title="Thor" ImgPath="/Assets/Terran/Unit/Thor.png" />
+      <unit Title="Corruptor" ImgPath="/Assets/Zerg/Unit/Corruptor.png" />
+      <unit Title="Phoenix" ImgPath="/Assets/Protoss/Unit/Phoenix.png" />
+    </WeakAgainst>
+    </unit>
+    <unit ID="11" Title="Corruptor" ImgPath="/Assets/Zerg/Unit/Corruptor.png" Minerai="150" Vespene="100" Ravitaillement="2" Construction_Time="40" BuildIn="Larve" Vie="200" Energie="0" Armure="2" Bouclier="0" >
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="Battlecruiser" ImgPath="/Assets/Terran/Unit/Battlecruiser.png" />
+        <unit Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" />
+        <unit Title="Phoenix" ImgPath="/Assets/Protoss/Unit/Phoenix.png" />
+      </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="Viking" ImgPath="/Assets/Terran/Unit/VikingFighter.png" />
+        <unit Title="Hydralisk" ImgPath="/Assets/Zerg/Unit/Hydralisk.png" />
+        <unit Title="Void Ray" ImgPath="/Assets/Protoss/Unit/VoidRay.png" />
+      </WeakAgainst>
+    </unit>
+    <unit ID="12" Title="Nydus Worm" ImgPath="/Assets/Zerg/Unit/NydusWorm.png" Minerai="100" Vespene="100" Ravitaillement="0" Construction_Time="20" BuildIn="Reseau de Nydus" Vie="200" Energie="0" Armure="1" Bouclier="0" >
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+    </unit>
+    <unit ID="13" Title="Ultralisk" ImgPath="/Assets/Zerg/Unit/Ultralisk.png" Minerai="300" Vespene="200" Ravitaillement= "6" Construction_Time="55" BuildIn="Larve" Vie="500" Energie="0" Armure="1" Bouclier="0">
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="Marauder" ImgPath="/Assets/Terran/Unit/Marauder.png" />
+        <unit Title="Roach" ImgPath="/Assets/Zerg/Unit/Roach.png" />
+        <unit Title="Stalker" ImgPath="/Assets/Protoss/Unit/Stalker.png" />
+      </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="Banshee" ImgPath="/Assets/Terran/Unit/Banshee.png" />
+        <unit Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" />
+        <unit Title="Void Ray" ImgPath="/Assets/Protoss/Unit/VoidRay.png" />
+      </WeakAgainst>
+    </unit>
+    <unit ID="14" Title="Brood Lord" ImgPath="/Assets/Zerg/Unit/BroodLord.png" Minerai="150" Vespene="150" Ravitaillement="2" Construction_Time="34" BuildIn="Corrupteur" Vie="225" Energie="0" Armure="1" Bouclier="0">
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="Marine" ImgPath="/Assets/Terran/Unit/Marine.png" />
+        <unit Title="Hydralisk" ImgPath="/Assets/Zerg/Unit/Hydralisk.png" />
+        <unit Title="Stalker" ImgPath="/Assets/Protoss/Unit/Stalker.png" />
+      </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="Viking" ImgPath="/Assets/Terran/Unit/VikingFighter.png" />
+        <unit Title="Corruptor" ImgPath="/Assets/Zerg/Unit/Corruptor.png" />
+        <unit Title="Void Ray" ImgPath="/Assets/Protoss/Unit/VoidRay.png" />
+      </WeakAgainst>
+    </unit>
+    <unit ID="15" Title="Swarm Host" ImgPath="/Assets/Zerg/Unit/SwarmHost.png" Minerai="200" Vespene="100" Ravitaillement="3" Construction_Time="40" BuildIn="Larva" Vie="160" Energie="0" Armure="1" Bouclier="0">
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="Marine" ImgPath="/Assets/Terran/Unit/Marine.png" />
+        <unit Title="Roach" ImgPath="/Assets/Zerg/Unit/Roach.png" />
+        <unit Title="Stalker" ImgPath="/Assets/Protoss/Unit/Stalker.png" />
+      </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="Baneling" ImgPath="/Assets/Zerg/Unit/Baneling.png" />
+        <unit Title="Hellion" ImgPath="/Assets/Terran/Unit/Hellion.png" />
+        <unit Title="Archon" ImgPath="/Assets/Protoss/Unit/Archon.png" />
+      </WeakAgainst>
+    </unit>
+    <unit ID="16" Title="Viper" ImgPath="/Assets/Zerg/Unit/Viper.png" Minerai="150" Vespene="150" Ravitaillement="2" Construction_Time="34" BuildIn="Corrupteur" Vie="225" Energie="0" Armure="1" Bouclier="0">
+      <Weapon Title="Fusion Cutter" ImgPath="/Assets/Terran/Weapon/btn-upgrade-terran-infantryweaponslevel0.jpg" Range="10" Damage="2" Bonus="" />
+      <Upgrades>
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+        <Upgrade Title="" ImgPath="" />
+      </Upgrades>
+      <Abilities>
+        <Ability Title="" ImgPath="" />
+        <Ability Title="" ImgPath="" />
+      </Abilities>
+      <StrongAgainst>
+        <unit Title="Siege Tank" ImgPath="/Assets/Terran/Unit/SiegeTank.png" />
+        <unit Title="Hydralisk" ImgPath="/Assets/Zerg/Unit/Hydralisk.png" />
+        <unit Title="Colossus" ImgPath="/Assets/Protoss/Unit/Colossus.png" />
+      </StrongAgainst>
+      <WeakAgainst>
+        <unit Title="Viking" ImgPath="/Assets/Terran/Unit/VikingFighter.png" />
+        <unit Title="Mutalisk" ImgPath="/Assets/Zerg/Unit/Mutalisk.png" />
+        <unit Title="Phoenix" ImgPath="/Assets/Protoss/Unit/Phoenix.png" />
+      </WeakAgainst>
+    </unit>
+  </Zerg>
+</Race>

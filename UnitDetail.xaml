@@ -1,0 +1,181 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="SC2Unit.UnitDetail"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="PortraitOrLandscape" Orientation="Portrait"
+    mc:Ignorable="d"
+    d:DataContext="{d:DesignData SampleData/SampleUnit.xaml}"
+    shell:SystemTray.IsVisible="True">
+
+    
+            <!--LayoutRoot est la grille racine où tout le contenu de la page est placé-->
+    <Grid x:Name="LayoutRoot" >
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Background.png" Stretch="Fill"/>
+        </Grid.Background>
+
+        <phone:Pivot Title="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}">
+            <!--Élément un de tableau croisé dynamique-->
+            <phone:PivotItem Header="Overview">
+
+                <Grid x:Name="ContentRoot">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+        
+        <!--TitlePanel contient le nom de l'application et le titre de la page-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <Grid x:Name="TitleGrid" Height="100">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{Binding Title}" Margin="9,-7,0,0" Grid.Column="1" FontSize="48" FontStyle="Italic" FontWeight="Bold" />
+                <Image HorizontalAlignment="Left" Stretch="Uniform" Source="{Binding ImgPath}" />
+            </Grid>
+        </StackPanel>
+
+        <!--ContentPanel - placez tout contenu supplémentaire ici-->
+        <Grid x:Name="ContentPanel" Margin="0,0,0,0" Grid.Row="1" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Image Stretch="None" Source="/Assets/IconProperties/icon-mineral.png" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock Text="{Binding Minerai}" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Image Stretch="None" Source="/Assets/IconProperties/icon-vespene-terran.png" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock Text="{Binding Vespene}" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Image Stretch="None" Source="/Assets/IconProperties/icon-supply-terran.png" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock Text="{Binding Ravitaillement}" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Image Stretch="None"  Source="/Assets/IconProperties/icon-buildtime-terran.png" Grid.Row="3" Grid.Column="0"  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock Text="{Binding Construction_Time}" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock Text="Construit par" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock Text="{Binding BuildIn}" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock Text="Vie" Grid.Row="5" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock Text="{Binding Vie}" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock Text="Bouclier" Grid.Row="6" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock Text="{Binding Bouclier}" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock Text="Armure" Grid.Row="7" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock Text="{Binding Armure}" Grid.Row="7" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid x:Name="WeakStrong" Margin="0,20,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Strong Against" HorizontalAlignment="Center"/>
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="Weak Against" HorizontalAlignment="Center"/>
+                <!--Liste double trait avec habillage du texte-->
+                <phone:LongListSelector Grid.Row="1" x:Name="StrongAgainst" ItemsSource="{Binding StrongAgainst}" SelectionChanged="StrongAgainst_SelectionChanged" Grid.ColumnSpan="2">
+                    <phone:LongListSelector.ItemTemplate >
+                        <DataTemplate>
+                            <Grid Margin="0,0,0,17"  >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Text="{Binding Title}" Grid.Row="1" Style="{StaticResource PhoneTextLargeStyle}"/>
+                                <Image Source="{Binding ImgPath }" HorizontalAlignment="Left" Height="100" Width="100" Grid.Row="0" />
+                            </Grid>
+                        </DataTemplate>
+                    </phone:LongListSelector.ItemTemplate>
+                </phone:LongListSelector>
+
+                <!--Liste double trait avec habillage du texte-->
+                <phone:LongListSelector Grid.Column="1" Grid.Row="1" x:Name="WeakAgainst" ItemsSource="{Binding WeakAgainst}" SelectionChanged="WeakAgainst_SelectionChanged">
+                    <phone:LongListSelector.ItemTemplate >
+                        <DataTemplate>
+                            <Grid Margin="0,0,0,17"  >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                            <TextBlock TextWrapping="Wrap" VerticalAlignment="Stretch"  HorizontalAlignment="Stretch" Text="{Binding Title}" Grid.Row="1" Style="{StaticResource PhoneTextLargeStyle}"/>
+                                <Image Source="{Binding ImgPath}" HorizontalAlignment="Left" Height="100" Width="100" Grid.Row="0" />
+                            </Grid>
+                        </DataTemplate>
+                    </phone:LongListSelector.ItemTemplate>
+                </phone:LongListSelector>
+            </Grid>
+        </Grid>
+        </Grid>
+                
+            </phone:PivotItem>
+       
+
+        <phone:PivotItem Header="Detail">
+                <Grid x:Name="AbilitiesAndUpgrades">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="5*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="5*" />
+                    </Grid.RowDefinitions>
+                    <!--Liste double trait, aucun habillage du texte-->
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Abilities" HorizontalAlignment="Center"/>
+                    
+                    <phone:LongListSelector Grid.Row="1" Margin="0,0,-12,0" x:Name="Abilities" ItemsSource="{Binding Abilities}" SelectionChanged="Abilities_SelectionChanged" >
+                <phone:LongListSelector.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="0,0,0,17">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="3*"/>
+                            </Grid.ColumnDefinitions>
+
+                                    <TextBlock Text="{Binding Title}" TextWrapping="Wrap" Grid.Column="1" Style="{StaticResource PhoneTextLargeStyle}"/>
+                            <Image Source="{Binding ImgPath}" Height="100" Width="100" Grid.Column="0" />
+                        </Grid>
+                    </DataTemplate>
+                </phone:LongListSelector.ItemTemplate>
+            </phone:LongListSelector>
+                    <TextBlock Grid.Row="2" Grid.Column="1" Text="Upgrades" HorizontalAlignment="Center"/>
+
+                    <phone:LongListSelector Margin="0,0,-12,0" Grid.Row="3" x:Name="Upgrades" ItemsSource="{Binding Upgrades}" SelectionChanged="Upgrades_SelectionChanged" >
+                        <phone:LongListSelector.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Margin="0,0,0,17">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="3*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <TextBlock Text="{Binding Title}" TextWrapping="Wrap" Grid.Column="1" Style="{StaticResource PhoneTextLargeStyle}"/>
+                                    <Image Source="{Binding ImgPath}" Height="100" Width="100" Grid.Column="0" />
+                                </Grid>
+                            </DataTemplate>
+                        </phone:LongListSelector.ItemTemplate>
+                    </phone:LongListSelector>
+
+                </Grid>
+            </phone:PivotItem>
+        </phone:Pivot>
+    </Grid>
+
+</phone:PhoneApplicationPage>
